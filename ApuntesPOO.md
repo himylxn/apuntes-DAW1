@@ -1,4 +1,4 @@
-# Programacón 
+# Programacón Orientada a Ojetos
 Dylan Alves Pinto
 # Programacion Orientada  a Objetos (POO / OOP)
 
@@ -30,7 +30,7 @@ public class Coche {
 
 ## Que son las clases
 
-### Es una planntilla, o molde que permite contruir objetos. Por ejempo, si tuvieramos la clase Coche, ésta seria el plano para contruir el Objeto (En este caso uno o varios coches)
+### Es una plantilla, o molde que permite contruir objetos. Por ejempo, si tuvieramos la clase Coche, ésta seria el plano para contruir el Objeto (En este caso uno o varios coches)
 
 - #### Se esciben siempre empezando por MAYÚSCULA
 - #### Representan entidades del mundo real
@@ -58,7 +58,7 @@ public class Coche {
 }
 ```
 
-## Que son los métodos
+# Que son los métodos
 
 ### Los metodos son las cosas que el objeto puede hacer:
 
@@ -163,14 +163,14 @@ Hola, soy un alumno y se decir mi nombre que es Juan
 Hola, soy un alumno y se decir mi nombre que es José
 ```
 
-## Que son los objetos?
+# Que son los objetos?
 
 - #### Un objeto es una "*instancia de una clase*" (crear un objeto de la clase)
 - #### Es la representación de un objeto que generalmente existe en la vida real
 - #### Posee un "*estado*" (de acuerdo a sus "*atributos*")
 - #### Posee un "*comportamiento*" (realizan operacioes de acuerdo a sus "métodos")
 
-## Métodos Constructores
+# Métodos Constructores
 
 ### Sirven para crear objetos
 
@@ -272,7 +272,7 @@ public class Main {
 
 - #### "*this*" sirve para asignar que la variable es "local" 
 
-## Getters y Setters
+# Getters y Setters
 
 #### *Para crear los constructores automaticamente se haria con el "click izquierdo > Source > Generate Getters and Setters*"
 
@@ -455,7 +455,7 @@ El nombre del alumno 2 es Dylan
 El apellido de alumno 2 es Alves Pinto
 ```
 
-## Herencia
+# Herencia
 
 #### La herencia en Java es un concepto de programación que permite que una clase comparta propiedades y comportamientos de otra clase. Es útil para reutilizar código y organizar clases de manera lógica. Por ejemplo, puedes crear una nueva clase basada en una existente y agregar o modificar su funcionalidad según sea necesario.
 
@@ -750,6 +750,10 @@ Nombre Empleado (Atributo heredado de la superclase) : Ramón
 Numero Consultor (Atributo propio del Cosultor) : 1
 Nombre Cosultor (Atributo heredado de la superclase) : Juanma
 ```
+
+# Polimorfismo
+
+
 
 
 
