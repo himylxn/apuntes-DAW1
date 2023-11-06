@@ -560,9 +560,196 @@ public class Consultor extends Persona{
 
 }
 ```
+### Clase Empleado
+### Ahora asignamos atributos propio de "*Empleado*"
 
-### Ahora asignamos
+```java
+package Herencia;
 
+//Para hacer que herede de la superclase Persona se asigna la palabra reservada "extends" y luego la clase de la que quieres que herede
+public class Empleado extends Persona{
+	
+	//Atributos propios del empleado
+	int num_empleado;
+	String cargo;
+	Double sueldo;
+	
+}
+```
+
+#### Una vez que tenemos los atributos propios de la clase "*Empleado*" probaremos a poner los atributos de la clase madre:
+
+```java
+package Herencia;
+
+//Para hacer que herede de la superclase Persona se asigna la palabra reservada "extends" y luego la clase de la que quieres que herede
+public class Empleado extends Persona{
+	
+	//Atributos propios del empleado
+	int num_empleado;
+	String cargo;
+	Double sueldo;
+	
+	
+	//constructor sin atributos
+	public Empleado() {
+	}
+
+
+	//Constructor con los atributos propios y con los de la superclase Persona
+	//(super) palabra reservada que sirve para llamar a la superclase
+	public Empleado(String dni, String nombre, String apellido, String domicilio, String telefono, int num_empleado,
+			String cargo, Double sueldo) {
+		super(dni, nombre, apellido, domicilio, telefono); //atributos de la superclase
+		this.num_empleado = num_empleado; //atributo de la clase propia
+		this.cargo = cargo; //atributo de la clase propia
+		this.sueldo = sueldo; //atributo de la clase propia
+	}
+
+	//getters y setters de la clase
+	public int getNum_empleado() {
+		return num_empleado;
+	}
+
+
+	public void setNum_empleado(int num_empleado) {
+		this.num_empleado = num_empleado;
+	}
+
+
+	public String getCargo() {
+		return cargo;
+	}
+
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+
+
+	public Double getSueldo() {
+		return sueldo;
+	}
+
+
+	public void setSueldo(Double sueldo) {
+		this.sueldo = sueldo;
+	}
+}
+
+```
+
+#### Los metodos y los setters/getters se pueden poner de forma automatica como lo vimos anteriormente
+
+### Haremos lo mismo para la clase consultor
+
+### Clase Consultor
+
+```java
+	package Herencia;
+
+//Para hacer que herede de la superclase Persona se asigna la palabra reservada "extends" y luego la clase de la que quieres que herede
+public class Consultor extends Persona{
+	
+	//Atributos propios del empleado
+	String nombre_consultora;
+	int num_contructor;
+	
+	
+	//constructor sin atributos
+	public Consultor() {
+	}
+	
+	
+	//Constructor con los atributos propios y con los de la superclase Persona
+	//(super) palabra reservada que sirve para llamar a la superclase
+	public Consultor(String dni, String nombre, String apellido, String domicilio, String telefono,
+			String nombre_consultora, int num_contructor) {
+		super(dni, nombre, apellido, domicilio, telefono); //atributos de la superclase
+		this.nombre_consultora = nombre_consultora; //atributo de la clase propia
+		this.num_contructor = num_contructor; //atributo de la clase propia
+	}
+	
+	//getters y setters de la clase
+	public String getNombre_consultora() {
+		return nombre_consultora;
+	}
+	public void setNombre_consultora(String nombre_consultora) {
+		this.nombre_consultora = nombre_consultora;
+	}
+	
+	
+	public int getNum_contructor() {
+		return num_contructor;
+	}
+	public void setNum_contructor(int num_contructor) {
+		this.num_contructor = num_contructor;
+	}
+}
+```
+
+## Pruebas
+
+### Clase Herencia (Main)
+
+```java
+package Herencia;
+
+public class Herencia {
+
+	public static void main(String[] args) {
+		
+		//Ejemplo Empleado
+		
+		//creamos el objeto empleado1
+		Empleado empleado1 = new Empleado();
+		
+		//asignamos un valor con set
+		empleado1.setNum_empleado(1); //Atributo propio del empleado
+		
+		//mostramos por pantalla usando el get
+		System.out.println("Numero Empleado (Atributo propio del empleado) : " + empleado1.getNum_empleado());  //Atributo propio del empleado
+		
+		//asignamos un valor con set
+		empleado1.setNombre("Ramón");
+		
+		//asignamos un valor con get
+		System.out.println("Nombre Empleado (Atributo heredado de la superclase) : " + empleado1.getNombre()); //Atributo heredado de la superclase
+		
+		
+		
+		System.out.println("---------------------"); //solo espaciado
+		
+		
+		//Ejemplo consultor
+		Consultor consultor1 = new Consultor();
+		
+		//Atributo propio del empleado
+		consultor1.setNum_consultor(1); //Asignamos un valor con set
+		
+		//Atributo propio del empleado
+		System.out.println("Numero consultor (Atributo propio del empleado) : " + consultor1.getNum_consultor()); //Mostramos por pantalla usando el get
+		
+		
+		
+		//Atributo heredado de la superclase
+		consultor1.setNombre("Juanma"); //asignamos un valor con set
+				
+		//Atributo heredado de la superclase
+		System.out.println("Nombre Empleado (Atributo heredado de la superclase) : " + consultor1.getNombre()); //asignamos un valor con get
+	}
+}
+```
+
+### Resultado Ejecución
+
+```java
+Numero Empleado (Atributo propio del empleado) : 1
+Nombre Empleado (Atributo heredado de la superclase) : Ramón
+-------------------------------------------------------------
+Numero Consultor (Atributo propio del Cosultor) : 1
+Nombre Cosultor (Atributo heredado de la superclase) : Juanma
+```
 
 
 
