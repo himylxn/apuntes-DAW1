@@ -6,11 +6,11 @@ Dylan Alves Pinto
 
 ## Caracteristicas
 
-- #### Abstracción
-- #### Encapsulamiento
-- #### Polimorfismo
-- #### Herencia
-- #### UML
+- Abstracción
+- Encapsulamiento
+- Polimorfismo
+- Herencia
+- UML
 
 ## Que son los atributos
 
@@ -32,11 +32,11 @@ public class Coche {
 
 ### Es una plantilla, o molde que permite contruir objetos. Por ejempo, si tuvieramos la clase Coche, ésta seria el plano para contruir el Objeto (En este caso uno o varios coches)
 
-- #### Se esciben siempre empezando por MAYÚSCULA
-- #### Representan entidades del mundo real
-- #### Poseen atributos o metodos
-- #### No pueden ser utilizadas directamente, si no medinte instancia a objetos 
-- #### Ejemplos : Coche, Persona, Casa, Factura, Producto... etc
+-  Se esciben siempre empezando por MAYÚSCULA
+-  Representan entidades del mundo real
+-  Poseen atributos o metodos
+-  No pueden ser utilizadas directamente, si no medinte instancia a objetos 
+-  Ejemplos : Coche, Persona, Casa, Factura, Producto... etc
 
 ## Practica
 
@@ -62,15 +62,15 @@ public class Coche {
 
 ### Los metodos son las cosas que el objeto puede hacer:
 
-- #### Acelerar
-- #### Frenar
-- #### Cambiar Marcha
+-  Acelerar
+-  Frenar
+-  Cambiar Marcha
 
-### Careacteristicas de los métodos
+### Caracteristicas de los métodos
 
-- #### Siempre los identificamos como verbos en infinitivo (Acelerar, Frenar)
-- #### Pueden existir "*Procedimientos*" (no retornan un valor)
-- #### O "*Funciones*" (retornan un valor)
+-  Siempre los identificamos como verbos en infinitivo (Acelerar, Frenar)
+-  Pueden existir "*Procedimientos*" (no retornan un valor)
+-  O "*Funciones*" (retornan un valor)
 
 ## Practica
 
@@ -165,18 +165,18 @@ Hola, soy un alumno y se decir mi nombre que es José
 
 # Que son los objetos?
 
-- #### Un objeto es una "*instancia de una clase*" (crear un objeto de la clase)
-- #### Es la representación de un objeto que generalmente existe en la vida real
-- #### Posee un "*estado*" (de acuerdo a sus "*atributos*")
-- #### Posee un "*comportamiento*" (realizan operacioes de acuerdo a sus "métodos")
+-  Un objeto es una "*instancia de una clase*" (crear un objeto de la clase)
+-  Es la representación de un objeto que generalmente existe en la vida real
+-  Posee un "*estado*" (de acuerdo a sus "*atributos*")
+-  Posee un "*comportamiento*" (realizan operacioes de acuerdo a sus "métodos")
 
 # Métodos Constructores
 
 ### Sirven para crear objetos
 
-- #### Son funciones especiales que contienen las clases para "*permitir la creación de objetos*" 
-- #### Pueden recibir "*datos/parámetros*" como no (contructor vacío)
-- #### Se llaman SIEMPRE igual que la clase
+-  Son funciones especiales que contienen las clases para "*permitir la creación de objetos*" 
+-  Pueden recibir "*datos/parámetros*" como no (contructor vacío)
+-  Se llaman SIEMPRE igual que la clase
 
 ## Practica
 
@@ -266,19 +266,19 @@ public class Main {
 
 ### Explicación "*this*"
 
-- #### Si tienes variables que se llaman igual java los diferencia con la palabra reservada "*this*" que en español significa "*ésta*"
+-  Si tienes variables que se llaman igual java los diferencia con la palabra reservada "*this*" que en español significa "*ésta*"
 
-- #### Vemos que en esta clase hay asignadas las variables globales (id, nombre, apellido) y en el contructor que acabamos de crear tambien hay los mismos. Para diferenciar los globales de los locales se usa el "*this*"
+-  Vemos que en esta clase hay asignadas las variables globales (id, nombre, apellido) y en el contructor que acabamos de crear tambien hay los mismos. Para diferenciar los globales de los locales se usa el "*this*"
 
-- #### "*this*" sirve para asignar que la variable es "local" 
+-  "*this*" sirve para asignar que la variable es "local" 
 
 # Getters y Setters
 
-#### *Para crear los constructores automaticamente se haria con el "click izquierdo > Source > Generate Getters and Setters*"
+ *Para crear los constructores automaticamente se haria con el "click izquierdo > Source > Generate Getters and Setters*"
 
 ### Que son?
 
-#### Los setters y lo getters se utilizan para traer y establecer valores
+ Los setters y lo getters se utilizan para traer y establecer valores
 
 #### "*Get*" = Traer
 #### "*Set*" = Colocar o establecer valores 
@@ -457,10 +457,10 @@ El apellido de alumno 2 es Alves Pinto
 
 # Herencia
 
-#### La herencia en Java es un concepto de programación que permite que una clase comparta propiedades y comportamientos de otra clase. Es útil para reutilizar código y organizar clases de manera lógica. Por ejemplo, puedes crear una nueva clase basada en una existente y agregar o modificar su funcionalidad según sea necesario.
+ La herencia en Java es un concepto de programación que permite que una clase comparta propiedades y comportamientos de otra clase. Es útil para reutilizar código y organizar clases de manera lógica. Por ejemplo, puedes crear una nueva clase basada en una existente y agregar o modificar su funcionalidad según sea necesario.
 
 ### Practica
-#### Para éste ejercicio voy a crear un nuevo proyecto
+ Para éste ejercicio voy a crear un nuevo proyecto
 #### Creamos la que va a ser la "*clase madre*" o "*superclase*", la voy a llamar persona
 
 ### Clase Persona
@@ -535,10 +535,10 @@ public class Persona {
 }
 ```
 ### Siguiente paso 
-#### Creo una nueva clase llamada Empleado y otra llamada Consultor las cuales vamos a hacer que hereden de la clase "Persona" (superclase)
+ Creo una nueva clase llamada Empleado y otra llamada Consultor las cuales vamos a hacer que hereden de la clase "Persona" (superclase)
 
 ### Clase Empleado
-#### Para asignar que queremso que herede de la superclase se hace así:
+ Para asignar que queremso que herede de la superclase se hace así:
 
 ```java
 package Herencia;
@@ -577,7 +577,7 @@ public class Empleado extends Persona{
 }
 ```
 
-#### Una vez que tenemos los atributos propios de la clase "*Empleado*" probaremos a poner los atributos de la clase madre:
+ Una vez que tenemos los atributos propios de la clase "*Empleado*" probaremos a poner los atributos de la clase madre:
 
 ```java
 package Herencia;
@@ -639,7 +639,7 @@ public class Empleado extends Persona{
 
 ```
 
-#### Los metodos y los setters/getters se pueden poner de forma automatica como lo vimos anteriormente
+ Los metodos y los setters/getters se pueden poner de forma automatica como lo vimos anteriormente
 
 ### Haremos lo mismo para la clase consultor
 
