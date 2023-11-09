@@ -751,9 +751,24 @@ Numero Consultor (Atributo propio del Cosultor) : 1
 Nombre Cosultor (Atributo heredado de la superclase) : Juanma
 ```
 
-# Polimorfismo
+# Encapsulamiento
 
+Significa reunir a todos los elementos que pueden considerarse pertenecientes a una misma entidad, al mismo nivel de abstracción. 
 
+Permite 3 niveles de acceso:
+
+- PUBLIC (Público)
+- PRIVATE (Privado)
+- PROTECTED (Protegido)
+
+## PUBLIC
+Se puede usar desde cualquier clase.
+
+## PRIVATE
+Si es privado unicamente se puede utilizar dentro de la clase donde está asignado.
+
+## PROTECTED
+Se puede usar en su clase y en las clases hijas.
 
 
 
