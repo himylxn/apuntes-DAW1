@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-<head> <!-- Elemento donde vamos a meter metadatos, informacion extra etc... No se renderiza y sirve para darle datos a  la pagina-->
-        
+<head>
+    <!-- Elemento donde vamos a meter metadatos, informacion extra etc... No se renderiza y sirve para darle datos a  la pagina-->
+
     <!--"meta" Metadato-->
-    <title>Portfolio Dylan</title> <!-- "title" Es clave, sirve para poner titulo a la pagina, aparece arriba en la pestaña y tambien sirve para luego cuando aparece en el buscador -->
+    <title>Portfolio Dylan</title>
+    <!-- "title" Es clave, sirve para poner titulo a la pagina, aparece arriba en la pestaña y tambien sirve para luego cuando aparece en el buscador -->
     <meta name="description" content="Portfolio de Dylan, estudiante de desarrollo de aplicaciones web">
     <meta charset="utf-8"> <!-- Codificacion -->
     <meta name="viewport" content="width=device-width"> <!-- Sirve para que el sitio se adaptable -->
-    <meta name="robots" content="index, follow"> <!-- Un metadato imprtante para google le inicamos si tiene que indexar la pagina y si tiene que seguir los enlaces -->
-    <meta name="theme-color" content="#09f"> <!-- Sirve para cambiar el color de la parte superior del navegador cuando esté en nuestra pagina -->
-        
+    <meta name="robots" content="index, follow">
+    <!-- Un metadato imprtante para google le inicamos si tiene que indexar la pagina y si tiene que seguir los enlaces -->
+    <meta name="theme-color" content="#09f">
+    <!-- Sirve para cambiar el color de la parte superior del navegador cuando esté en nuestra pagina -->
+
     <link rel="icon" type="image/jpg" href="./img/dylan.PNG"> <!-- Sirve para poner un favicon -->
 
     <!-- OPEN GRAPH sirve para cuando compartas un contenido se vea bien-->
@@ -29,29 +33,19 @@
         <nav> <!--Seccion de navegación-->
             <a href="#experiencia">Experiencia</a> <!--Nos envia a una parte de nuestra pagina-->
             <a href="#estudios">Estudios</a> <!--Nos envia a una parte de nuestra pagina-->
-            <a href="https://www.linkedin.com/in/dylan-alves-pinto/" target="_blank" rel="noreferrer">Linkedin</a> <!--Nos envia a otra pagina / target="_blank" sirve para que se habra en otra pestaña / rel="noreferrer" es por un tema de seguridad,no envia la cabecera de referrer-->
-            <a href="https://github.com/himylxn" target="_blank" rel="noreferrer">GitHub</a> <!--Nos envia a otra pagina-->
+            <a href="https://www.linkedin.com/in/dylan-alves-pinto/" target="_blank" rel="noreferrer">Linkedin</a>
+            <!--Nos envia a otra pagina / target="_blank" sirve para que se habra en otra pestaña / rel="noreferrer" es por un tema de seguridad,no envia la cabecera de referrer-->
+            <a href="https://github.com/himylxn" target="_blank" rel="noreferrer">GitHub</a>
+            <!--Nos envia a otra pagina-->
         </nav>
 
     </header>
 
     <!--Poner un video / autoplay hace que el video se ejecute solo / muted hace que se ejecute sin sonido / loop hace que una vez que acaba se vuelve a reproducir / Con controls hariamos que tuviera botones-->
-    <video 
-        autoplay 
-        muted 
-        loop 
-        src="./img/fondo.mp4" 
-        width="400" 
-        height="250"
-        >
+    <video autoplay muted loop src="./img/fondo.mp4" width="400" height="250">
     </video>
 
-    <audio 
-        controls
-        src="./img/fondo.mp4" 
-        width="400" 
-        height="250"
-        >
+    <audio controls src="./img/fondo.mp4" width="400" height="250">
     </audio>
 
     <main> <!--Contenido principal de la pagina (solo puede haber uno)-->
@@ -59,7 +53,7 @@
         <!-- "strong" Negrita -->
         <p>Estudiante de primer año de <strong>diseño de aplicaciones web</strong>.</p>
 
-    <h2 id="experiencia">Exeriencia</h2>
+        <h2 id="experiencia">Exeriencia</h2>
 
         <!--"li" Lista desordenada-->
         <!-- "class" Forma de identificar elementos que se repiten-->
@@ -67,131 +61,115 @@
             <li class="list-item">WDMI FCT - 2023</li>
             <li class="list-item">Pamasat FCT - 2021</li>
         </ul>
-                
-        <!-- "img" Imagen/ El src atributo que en este caso nos permite indicar que imagen queremos cargar--> 
+
+        <!-- "img" Imagen/ El src atributo que en este caso nos permite indicar que imagen queremos cargar-->
         <!-- "id" Sirve para identificar algo (No puede tener un nombre igual a otro id)-->
         <!-- "height" Altura (Las comillas son opcionales) -->
         <!-- "width" Ancho (las comillas son opcionales) -->
         <!-- "title" Sirve para definir el titulo de la imagen, se puede visualizar si pones el raton encima de la imagen -->
         <!-- "src" Sirve para poner el link-->
         <!-- "alt" Sirve para describir la imagen, es util por si la imagen no carga o para las personas que tienen problemas de vista -->
-        
+
         <!--Con el <a> hacemos que sea una foto clickable y con el download decimos que al hacer click en la imagen se descargue-->
-        <a download ="./img/dylan.PNG">
-            <img 
-            id="photo-image"
-            height="270"
-            width="230"
-            title="foto personal Dylan"
-            src="./img/dylan.PNG"
-            alt="Foto personal de Dylan Alves Pinto"
-            >
+        <a download="./img/dylan.PNG">
+            <img id="photo-image" height="270" width="230" title="foto personal Dylan" src="./img/dylan.PNG"
+                alt="Foto personal de Dylan Alves Pinto">
         </a>
 
-    <h2 id="estudios">Mis estudios</h2>      
+        <h2 id="estudios">Mis estudios</h2>
         <ol type="a">
             <li>FP Superior desarrollo de aplicaciones Web</li>
             <li>FP Medio Sistemas Microinformaticos y redes</li>
         </ol>
 
-                
-    <section> <!--Sirve para definir una seccion en un documento-->
-        <h2>Habilidades adquiridas</h2>
+
+        <section> <!--Sirve para definir una seccion en un documento-->
+            <h2>Habilidades adquiridas</h2>
             <ul>
                 <li>Frontend: HTML, CSS, JavaScript, React, y Vue.js para crear interfaces dinámicas.</li>
                 <li>Backend: Node.js, Express, y MongoDB para desarrollar servidores web y API RESTful.</li>
-                <li>Gestión de Proyectos: Metodologías ágiles como Scrum para la planificación y ejecución de proyectos.</li>
-                <li>Diseño Responsivo y UX/UI: Creación de sitios adaptables y mejora de la experiencia del usuario.</li>
+                <li>Gestión de Proyectos: Metodologías ágiles como Scrum para la planificación y ejecución de proyectos.
+                </li>
+                <li>Diseño Responsivo y UX/UI: Creación de sitios adaptables y mejora de la experiencia del usuario.
+                </li>
                 <li>Seguridad Web: Implementación de medidas de seguridad contra amenazas comunes.</li>
-                <li>Despliegue y Mantenimiento: Conocimientos en despliegue en producción y mantenimiento eficiente de aplicaciones web.</li> 
+                <li>Despliegue y Mantenimiento: Conocimientos en despliegue en producción y mantenimiento eficiente de
+                    aplicaciones web.</li>
             </ul>
-    </section>
+        </section>
 
-                    
-    <section> <!--Sirve para definir una seccion-->
-        <article> <!--Bloque independiente que si lo sacaras a otro sitio se entenderia perfectamente-->
-            <h3>Que es el desarrollo de aplicaciones Web?</h3>
-            <p>El desarrollo de aplicaciones web es un proceso que implica la creación y mantenimiento de software destinado a ser ejecutado en un navegador web. Estas aplicaciones pueden variar en complejidad, desde simples páginas web interactivas hasta aplicaciones web empresariales complejas.</p>
-        </article>
-    </section>
 
-    <section>
-        <h2>Preguntas frecuentes</h2>
+        <section> <!--Sirve para definir una seccion-->
+            <article> <!--Bloque independiente que si lo sacaras a otro sitio se entenderia perfectamente-->
+                <h3>Que es el desarrollo de aplicaciones Web?</h3>
+                <p>El desarrollo de aplicaciones web es un proceso que implica la creación y mantenimiento de software
+                    destinado a ser ejecutado en un navegador web. Estas aplicaciones pueden variar en complejidad,
+                    desde simples páginas web interactivas hasta aplicaciones web empresariales complejas.</p>
+            </article>
+        </section>
 
-        <details open> <!--Detalles / con el "open" hacemos que esté abierta la pregunta por defecto-->
-            <summary>Que estudios tienes?</summary> <!--Sirve para hacer un pregunta desplegable-->
-            <p>Estudie un grado medio de informatica en el IES SanClemente y posteriormente estudie DAW en el mismo centro</p><!--Escribir la respuesta de la pregunta-->
-        </details>
+        <section>
+            <h2>Preguntas frecuentes</h2>
 
-        <details>
-            <summary>Cuales son mis hobbies?</summary>
-            <p>Me encanta jugar a videojuegos con mis amigos y salir con mi novia a dar un paseo</p>
-        </details>
+            <details open> <!--Detalles / con el "open" hacemos que esté abierta la pregunta por defecto-->
+                <summary>Que estudios tienes?</summary> <!--Sirve para hacer un pregunta desplegable-->
+                <p>Estudie un grado medio de informatica en el IES SanClemente y posteriormente estudie DAW en el mismo
+                    centro</p><!--Escribir la respuesta de la pregunta-->
+            </details>
 
-        <details>
-            <summary>Que experiencia tienes?</summary>
-            <p>Estuve de practicas en 2 empresas</p>
-        </details>
+            <details>
+                <summary>Cuales son mis hobbies?</summary>
+                <p>Me encanta jugar a videojuegos con mis amigos y salir con mi novia a dar un paseo</p>
+            </details>
 
-        
-    </section>
+            <details>
+                <summary>Que experiencia tienes?</summary>
+                <p>Estuve de practicas en 2 empresas</p>
+            </details>
 
-    <section>
-        <h2>Formulario de contacto</h2>
- 
-        <form method="post" action="/">
-            <fieldset> <!--Agrupacion de formularios-->
-                <legend>Informacion Personal</legend>
-                <div>
-                    <label>Nombre:</label>
-                        <input 
-                        type="text" 
-                        id="name" 
-                        name="name" 
-                        placeholder="Inserte nombre"
-                        >
-                </div>   
-                
-                <div>
-                    <label>Correo electronico</label>
-                        <input 
-                        type="email" 
-                        id="email" 
-                        name="email" 
-                        placeholder="Inserte email"
-                        >
-                </div>        
-            </fieldset>
 
-            <fieldset>
-                <legend>Informacion Adicional</legend>
+        </section>
 
-                <label>Telefono:</label>
-                <input 
-                type="tel"
-                id="tel"
-                name="tel"
-                placeholder="Inserte telefono móvil"
-                >
-            </fieldset>
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form method="post" action="/">
+                <fieldset> <!--Agrupacion de formularios-->
+                    <legend>Informacion Personal</legend>
+                    <div>
+                        <label>Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Inserte nombre">
+                    </div>
+
+                    <div>
+                        <label>Correo electronico</label>
+                        <input type="email" id="email" name="email" placeholder="Inserte email">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informacion Adicional</legend>
+
+                    <label>Telefono:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Inserte telefono móvil">
+                </fieldset>
         </section>
         <button type="button">Enviar</button>
-    </form>
+        </form>
 
     </main>
 </body>
 
-    <footer>
-        <small>
-            © Copyright mylxn.
-
-            <!--Enlaces especiales-->
-            <a href="mailto:mylaaannalvespinto@gmail.com">Enviame un correo</a>
-            <a href="tel:+34633452231">Llamar por telefono</a>
 
 
+<footer>
+    <small>
+        © Copyright mylxn.
 
-        </small>
-    </footer>
+        <!--Enlaces especiales-->
+        <a href="mailto:mylaaannalvespinto@gmail.com">Enviame un correo</a>
+        <a href="tel:+34633452231">Llamar por telefono</a>
+    </small>
+</footer>
 
 </html>

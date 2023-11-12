@@ -9,10 +9,11 @@ HTML (Lenguaje de Marcado de Hipertexto) sirve para describir el contenido de un
 Lo primero será crear un archivo `.html`.
 
 ## Trucos HTML
-- HTML no es `keySensitive` pero es recomendable que se escriba todo en minusculas
+- Organizar codigo -> Alt + Shift + F
 - Para escribir varias líneas a la vez, se usa la tecla "Alt".
 - Al comenzar un documento HTML con "!" y "Enter", se generan las etiquetas básicas.
 - Para crear varias etiquetas del mismo tipo, se utiliza el nombre de la etiqueta seguido por el "símbolo de multiplicar" (ejemplo: `li*5`).
+- HTML no es `keySensitive` pero es recomendable que se escriba todo en minusculas
 
 ### Etiquetas
 
