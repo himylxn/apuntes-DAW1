@@ -1,54 +1,61 @@
-# Apuntes sobre el Código HTML
+# Apuntes sobre HTML
 
-## Metadatos en `<head>`
-- **`<title>`:** Define el título de la página que aparece en la pestaña del navegador.
-- **`<meta charset="utf-8">`:** Especifica la codificación de caracteres UTF-8 para el documento.
-- **`<meta name="viewport" content="width=device-width">`:** Hace que la página sea adaptable a diferentes tamaños de pantalla.
-- **`<meta name="robots" content="index, follow">`:** Indica a los motores de búsqueda que indexen y sigan los enlaces de la página.
-- **`<meta name="theme-color" content="#09f">`:** Define el color de la parte superior del navegador.
-- **`<link rel="icon" type="image/jpg" href="./img/dylan.PNG">`:** Agrega un favicon a la página.
-- **Open Graph para Compartir:** Proporciona información para mejorar la apariencia al compartir en redes sociales.
+HTML (Lenguaje de Marcado de Hipertexto) es el lenguaje estándar utilizado para crear y diseñar páginas web. Aquí se presentan algunos elementos clave y buenas prácticas que puedes tener en cuenta:
 
-## Encabezado (`<header>`)
-- **`<h1>`:** Título principal de la página.
-- **`<nav>`:** Sección de navegación con enlaces internos y externos.
+## Metadatos (`<head>`):
+- **`<title>`:** Especifica el título de la página que se muestra en la pestaña del navegador.
+- **`<meta charset="utf-8">`:** Define la codificación de caracteres como UTF-8 para admitir caracteres especiales.
+- **`<meta name="viewport" content="width=device-width">`:** Hace que la página sea adaptable a diferentes dispositivos.
+- **`<meta name="robots" content="index, follow">`:** Instruye a los motores de búsqueda sobre la indexación y el seguimiento de enlaces.
+- **`<meta name="theme-color" content="#09f">`:** Define el color de la barra superior del navegador en dispositivos móviles.
+- **Favicon (`<link rel="icon" type="image/jpg" href="./img/dylan.PNG">`):** Permite agregar un icono de pestaña personalizado.
 
-## Contenido Principal (`<main>`)
-- **Introducción:**
-  - **`<p>` y `<strong>`:** Párrafo introductorio con texto y palabras en negrita.
+## Estructura Básica:
+  ```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos y enlaces -->
+</head>
+<body>
+    <!-- Contenido de la página -->
+</body>
+</html>
 
-- **Experiencia (`<h2>` y `<ul>`):**
-  - Lista desordenada (`<ul>`) de experiencias con la clase `list-item`.
+```
 
-- **Estudios (`<h2>` y `<ol>`):**
-  - Lista ordenada (`<ol>`) de estudios con tipo de lista "a".
+# Encabezados
+Utiliza `<header>` para la cabecera de la página y `<h1>` para el título principal.
+`<nav>` para agrupar enlaces de navegación.
 
-- **Habilidades Adquiridas (`<section>` y `<ul>`):**
-  - Lista desordenada que destaca habilidades en desarrollo web.
+# Contenido Multimedia
+`<video>` y `<audio>` para contenido multimedia. Especifica atributos como `autoplay`, `muted`, y `loop` según sea necesario.
 
-- **Artículo sobre Desarrollo de Aplicaciones Web (`<section>` y `<article>`):**
-  - Descripción breve sobre el desarrollo de aplicaciones web.
+# Imágenes
+`<img>` para mostrar imágenes. Usa atributos como `src`, `alt`, `height`, y `width` para mejorar la accesibilidad.
 
-- **Preguntas Frecuentes (`<section>` y `<details>`):**
-  - Preguntas desplegables con respuestas en detalles (`<details>`).
+# Listas
+Utiliza `<ul>` para listas desordenadas y `<ol>` para listas ordenadas. Cada elemento de la lista se define con `<li>`.
 
-- **Formulario de Contacto (`<section>` y `<form>`):**
-  - Formulario de contacto con campos para nombre, correo electrónico y teléfono.
+# Secciones y Artículos
+Usa `<section>` para agrupar contenido relacionado y `<article>` para contenido independiente que puede vivir por sí mismo.
 
-## Pie de Página (`<footer>`)
-- **Información de Contacto:**
-  - Enlaces especiales para enviar un correo o llamar por teléfono.
+# Formularios
+`<form>` para crear formularios. Usa `<input>` para campos de entrada, `<textarea>` para áreas de texto, y `<button>` para botones de envío.
 
-## Apuntes Adicionales
-- **Enlaces Externos (`<a>` con `target="_blank"` y `rel="noreferrer"`):**
-  - Enlaces a LinkedIn y GitHub que se abren en una nueva pestaña.
+# Enlaces
+Utiliza `<a>` para crear enlaces. Puedes abrir enlaces en una nueva pestaña con `target="_blank"`.
 
-- **Imagen Descargable (`<a>` y `<img>` con atributo `download`):**
-  - Imagen personal descargable.
+# Comentarios
+Agrega comentarios para explicar tu código. Se realizan con `<!-- comentario -->`.
 
-# Observaciones
-- Se hace uso de IDs y clases para identificar y dar estilo a elementos específicos.
-- Se utiliza un enfoque semántico con etiquetas HTML para mejorar la accesibilidad y la comprensión del contenido.
-- El código HTML está estructurado con claridad en secciones como `<head>`, `<header>`, `<main>`, y `<footer>`.
-- Se aplican buenas prácticas como el uso de metadatos, encabezados, listas y formularios.
-- El formulario carece de un método de envío real (`<button type="button">Enviar</button>`), se podría mejorar con un servidor de backend y lógica de procesamiento.
+# Buenas Prácticas
+- **Semántica:** Utiliza etiquetas HTML de manera semántica para describir el significado del contenido.
+- **ID y Clases:** Asigna IDs y clases para aplicar estilos y seleccionar elementos con CSS o JavaScript.
+- **Accesibilidad:** Usa atributos como `alt` en imágenes para mejorar la accesibilidad.
+- **Organización:** Estructura tu código con secciones claras como `<head>`, `<header>`, `<main>`, y `<footer>`.
+- **Validación:** Valida tu código HTML utilizando herramientas en línea para asegurar la conformidad con los estándares.
+
+Estos apuntes proporcionan una visión general de HTML y algunas prácticas recomendadas. ¡Experimenta y construye páginas web creativas!
+
+
