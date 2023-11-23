@@ -419,6 +419,16 @@ Este ejercicio demuestra cómo utilizar el operador ternario en Java para tomar 
 <br>
 
 
+# Bucles
+## Bucles Infinitos
+Un bucle infinito se produce cuando por algún motivo el programa entra en un bucle pero el mismo no tiene una condición de salida
+
+Se llama bucle infinito porque, al no haber un condición de salida, el bucle continua ejecutandose sin fin.
+
+<br>
+<br>
+<br>
+
 # Bucle While
 
 El bucle `while` permite ejecutar un bloque de código de manera repetitiva "mientras" se cumpla una determinada condición. Es importante destacar algunos puntos clave:
@@ -464,7 +474,8 @@ public class While {
 
 ## Ejercicios Practicos
 
-### Imprime, usando while, los números del 0 al 10
+### Ejercicio 1
+Imprime, usando while, los números del 0 al 10
 ```java
 package fuckPruebas;
 
@@ -487,7 +498,8 @@ public class While {
 }
 ```
 
-### Imprime, usando while, los números pares que se encuentran entre 0 y 10.
+### Ejercicio 2
+Imprime, usando while, los números pares que se encuentran entre 0 y 10.
 
 ```java
 package fuckPruebas;
@@ -514,5 +526,96 @@ public class While {
 }
 
 ```
+### Ejercicio 3
+
+Imprime las letras minúsculas del abecedario utilizando un bucle while.
+Ten en cuenta lo que ya sabes: un char es un tipo especial de entero de 16 bits sin
+signo (valores de 0 a 65536). Según UNICODE ese entero estará asociado a un
+carácter. Tratar a un carácter como un entero sin signo, permite hacer algunas
+operaciones aritméticas como sumas y restas. En la tabla unicode las letras minúscula
+del abecedario son números enteros contiguos. El caracter 'a' se corresponde con el
+entero 97.
+
+- char c='a'; // c contiene el entero 97 asociado al carácter 'a'
+- c++; //ahora c contiene el entero 98, o sea el carácter 'b'
+- System.out.println(c); //imprime el caracter 'b'
+
+```java
+package fuckPruebas;
+
+public class While {
+
+    public static void main(String[] args) {
+
+        // Se declara una variable de tipo char llamada 'letra' y se le asigna el valor 'a'
+        char letra = 'a';
+
+        // Inicia un bucle 'while' que se ejecutará mientras la variable 'letra' sea menor o igual a 'z'
+        while (letra <= 'z') {
+            // Imprime en la consola el valor actual de la variable 'letra'
+            System.out.println(letra);
+            
+            // Incrementa el valor de la variable 'letra' en 1 para pasar a la siguiente letra en el alfabeto
+            letra++;
+        }
+    }
+}
+
+```
+
+### Ejercicio 4
+
+Usando while, escribe un programa que va leyendo palabras hasta que
+introducimos la palabra “fin”. Al acabar de introducir palabras las imprime todas.
+
+```java
+// Importar la clase Scanner para leer la entrada del usuario
+import java.util.Scanner;
+
+public class ProgramaPalabras {
+    public static void main(String[] args) {
+        // Crear un objeto Scanner para leer la entrada del usuario
+        Scanner scanner = new Scanner(System.in);
+
+        // Variable para almacenar la palabra actual
+        String palabra;
+
+        // Imprimir mensaje inicial
+        System.out.println("Introduce palabras (escribe 'fin' para terminar):");
+
+        // Crear un bucle while que continuará hasta que se ingrese "fin"
+        while (true) {
+            // Leer la siguiente palabra
+            palabra = scanner.next();
+
+            // Verificar si se ingresó la palabra "fin" para salir del bucle
+            if (palabra.equals("fin")) {
+                break;
+            }
+
+            // Imprimir la palabra ingresada
+            System.out.println("Palabra ingresada: " + palabra);
+        }
+
+        // Imprimir mensaje de despedida
+        System.out.println("Fin del programa.");
+
+        // Cerrar el scanner para liberar recursos
+        scanner.close();
+    }
+}
+```
+
+<br>
+<br>
+<br>
+
+
+# Bucle For
+El bucle For realiza un bucle, una determinada cantidad de veces. Se lo pude considerar un bucl
+## Ejercicios practicos
+
+
+
 
 
