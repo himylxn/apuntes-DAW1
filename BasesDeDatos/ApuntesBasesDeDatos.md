@@ -328,6 +328,7 @@ Ejemplos:
 - Seleccionar pedidos realizados después del 1 de enero de 2023:
     - Fecha_pedido>`"2023-02-02"`
 
+
 ![](./img/SeleccionRestriccionEjemplo.PNG)
 
 ### PROYECCIÓN
@@ -337,17 +338,155 @@ Se utiliza para seleccionar columnas específicas de una relación, descartando 
 
 Seria el SELECT en SQL
 
+```sql
+SELECT Nombre, Saldo FROM Clientes;
+```
+
 ![](./img/ProyeccionEjemplo.PNG)
 
 ### UNION
 ![](./img/Union.PNG)
 
 Se utiliza para combinar las tuplas de dos relaciones que tienen el mismo esquema, es decir, las mismas columnas. Es SQL, la union se realiza utilizando la cláusula "UNION"
+
+```sql
+SELECT * FROM EmpleadosNuevos
+UNION
+SELECT * FROM EmpleadosAntiguos;
+```
+
 ![](./img/UnionEjemplo.PNG)
 
 ### DIFERENCIA
 
 ![](./img/Diferencia.PNG)
+
+En algebra relacional se utiliza para obtener las tuplas de una relación que no están presentes en otra relación.
+
+En SQL, la diferencia se logra mediante la cláusula "EXCEPT".
+
+```sql
+SELECT * FROM EmpleadosEnProyecto
+EXCEPT
+SELECT * FROM EmpleadosEnVacaciones;
+```
+
+
+![](./img/DiferenciaEjemplo.PNG)
+
+
+### Producto cartesiano
+
+![](./img/ProductoCartesiano.PNG)
+
+Combina todas las tuplas de dos relaciones, generando una nueva relacion donde cada tupla de la primaera relacion se combina con cada tupla de la segunda relacion.
+
+En SQL, la operación de producto cartesiano se puede lograr simplemente listando las tablas en la cláusula FROM sin ninguna condición de unión. Aquí está el ejemplo en SQL:
+
+```sql
+SELECT * FROM Empleados, Departamentos;
+```
+
+![](./img/ProductoCartesianoEjemplo.PNG)
+
+### Intersección
+
+![](./img/Interseccion.PNG)
+
+Se utilza para obtener las tuplas que están presentes en ambas relaciones.
+
+En SQL, puedes utilizar la cláusula INTERSECT para lograr la misma operación.
+
+```sql
+SELECT * FROM EmpleadosEnProyecto
+INTERSECT
+SELECT * FROM EmpleadosEnVacaciones;
+```
+
+![](./img/InterseccionEjemplo.PNG)
+
+### Combinación natural ó Reunión natural o Join natural
+
+![](./img/CombinacionNatular.PNG)
+
+Combina las tuplas de dos relaciones basandose en las columnas que tiene el mismo nombre y mismo valor en ambas relaciones.
+
+```sql
+SELECT * 
+FROM Empleados
+NATURAL JOIN Departamentos;
+```
+
+![](./img/CombinacionNatularEjemplo.PNG)
+
+### Combinación ó Reunión ó Join
+
+![](./img/Combinacion.PNG)
+
+Se utiliza para combinar las tuplas de dos relaciones basándose en una condición de igualdad entre columnas especificadas.
+
+```sql
+SELECT *
+FROM Empleados
+JOIN Departamentos ON Empleados.DepartamentoID = Departamentos.DepartamentoID;
+```
+
+![](./img/CombinacionEjemplo.PNG)
+
+### NORMALIZACION DE RELACIONES
+
+Los pasos a seguir para `modelizar un minimundo` son:
+
+- Análisis del problema
+- Obtener el diagrama EER
+- Paso del EER al MR
+- Realizar las consultas principales en álgebra relacional
+- Implantar el modelo resultante en un SGBD relacional (SQL Server,Oracle...)
+
+### Relacion Universal
+
+Es una relacion (tabla) del MR que ``reúne todos los atributos de una base de datos en una única relación`` o tabla.
+
+Problemas:
+- Actualización
+- Borrado
+- Inserción
+
+![](./img/RelacionUniversal.PNG)
+
+![](./img/RelacionUniversal2.PNG)
+
+
+
+### Formas Normales
+Las formas normales son una serie de reglas que, de cumplirse, aseguran que el esquema diseñado tendrá un buen comportamiento en cuanto a redundancia, pérdida de información y representación de la misma.
+
+``TODAS`` las relaciones obtenidas al pasar de EER a MR deben estar ``como mínimo`` en ``Tercera Forma Normal (3FN)``.
+
+- La primera Forma Normal (1FN)
+- La segunda Forma Normal (2FN)
+- ``La tercera Forma Normal (3FN)``
+
+
+#### La primera Forma Normal (1FN)
+
+Asegura que los valores en cada celda de la tabla sean atómicos y no haya repeticiones ni atributos multivaluados.
+
+#### La segunda Forma Normal (2FN)
+
+Elimina dependencias parciales asegurando que todos los atributos no primos dependan completamente de la clave primaria.
+
+#### La tercera Forma Normal (3FN)
+
+Elimina dependencias transitivas garantizando que ningún atributo no primario dependa transitivamente de la clave primaria.
+
+
+
+
+
+
+
+
 
 
 
