@@ -45,7 +45,6 @@
 
 - **`Compuesto con Valor por Defecto:`** Al realizar un borrado, se asigna un valor por defecto predefinido, como "*Por defecto: 99*".
 
----
 
 ## Parte teórica
 
