@@ -47,37 +47,6 @@
 
 ---
 
-# Modelo Relacional con Grafo Relacional CHATGPTTTTTTTTTT
-
-## Reglas para el Grafo Relacional:
-
-1. **Nombres de Relaciones (Tablas):**
-   - Los nombres de las relaciones se representan en **MAYÚSCULAS y negrita**.
-
-2. **Atributos de las Relaciones (Tablas):**
-   - Se indica el nombre de la relación y, entre paréntesis, se listan todos sus atributos.
-   - Para tipos específicos de atributos:
-      - Claves primarias se subrayan.
-      - Claves candidatas se ponen en **negrita**.
-      - Claves foráneas se escriben en *cursiva* y se conectan con una flecha a la relación en la que son clave primaria.
-      - Atributos opcionales, que pueden tener valores nulos, se representan con un asterisco como superíndice del nombre del atributo (atributo_opcional*).
-
-3. **Propiedades de los Atributos:**
-   - Un mismo atributo puede tener varias propiedades a la vez. Por ejemplo, ser clave foránea y opcional. Se combina la simbología utilizada por separado para cada tipo de atributo.
-
-4. **Claves Foráneas:**
-   - Se debe indicar el tipo de BORRADO y MODIFICACIÓN que se produce en cada clave foránea.
-   - Tipos de Borrado:
-      - *EN CASCADA (CASCADE):* Borrado o modificación en una relación afecta a la otra.
-      - *RESTRINGIDO (RESTRICT o NO ACTION):* No se permite el borrado o modificación si hay información asociada en la otra relación.
-      - *CON PUESTA A NULOS (SET NULL):* Borrado o modificación pone a NULL las claves foráneas en la otra relación.
-      - *CON PUESTA A VALOR POR DEFECTO (SET DEFAULT):* Borrado pone a valor por defecto las claves foráneas en la otra relación.
-
-## Representación Gráfica:
-- La representación gráfica del modelo relacional se hace mediante un grafo, donde los nodos representan las relaciones (tablas) y las aristas representan las claves foráneas.
-
----
-
 ## Parte teórica
 
 # Modelo Relacional Resumen Básico
