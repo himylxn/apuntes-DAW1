@@ -48,45 +48,6 @@
 
 ## Parte teórica
 
-# Modelo Relacional Resumen Básico
-
-El **modelo relacional** es un enfoque para organizar y estructurar datos en una base de datos, propuesto por Edgar Codd en la década de 1970.
-
-## Tabla
-
-- Los datos se organizan en **tablas**, cada una con un nombre único, compuesta por filas (*tuplas/registros*) y columnas (*atributos/campos*).
-- Cada celda contiene un valor único y atómico del tipo de datos definido para esa columna.
-
-## Clave Primaria
-
-- Cada tabla tiene una o más columnas que sirven como **clave primaria**, identificando de manera única cada registro.
-- Garantiza la integridad de los datos y facilita el acceso eficiente a los registros.
-
-## Relaciones
-
-- Se establecen mediante **claves foráneas**, donde una columna hace referencia a la clave primaria de otra tabla.
-- Permite vincular información entre diferentes tablas y garantizar la consistencia de los datos.
-
-## Normalización
-
-- Proceso para organizar los datos y reducir la redundancia, mejorando la integridad.
-- Divide la información en tablas más pequeñas y relacionadas para evitar la repetición de datos y minimizar anomalías.
-
-## Operaciones
-
-- Define operaciones básicas como *SELECT* (recuperar datos), *INSERT* (agregar registros), *UPDATE* (modificar registros) y *DELETE* (eliminar registros).
-
-## Integridad Referencial
-
-- Garantiza que las relaciones entre las tablas sean coherentes y evita claves foráneas huérfanas.
-
-
-<br>
-<br>
-<br>
-
----
-
 ### Principal Objetivo del Modelo Relacional
 
 El modelo relacional se propone como principal objetivo, aislar al usuario de las estructuras fisicas de los datos, consiguiendo así la independencia entre aplicaciones y datos.
