@@ -237,9 +237,9 @@ están definidos sobre el mismo dominio de nombre números_enteros_positivos.
 
 - Clave ``primaria``: Conjunto minimo de atributos cuyos valores indentifican unívocamente a una tupla en una relación.
   
-- Clave ``candidata`` o ``alternativa``: txt
+- Clave ``candidata`` o ``alternativa``: Son claves que podrian ser primarias (puede haber mas de 1)
 
-- Clave ``foránea``: txt
+- Clave ``foránea``: Puedes tener varias y vienen de fuera
 
 
 ### TERMINOLOGÍA
@@ -281,13 +281,75 @@ Son herramientas que el diseñador utiliza para personalizar el esquema de relac
 
 Las restricciones semánticas del MR son las siguientes:
 
-1) RESTRICCIÓN DE CLAVE PRIMARIA (Primary key: permite declarar un atributo o conjunto de atributos como la clave primaria de una relación. Esta clave primaria tiene la función de identificar de manera única cada tupla dentro de la relación, asegurando que no haya duplicados y proporcionando una forma única de referenciar cada registro en la tabla.
+1) RESTRICCIÓN DE CLAVE PRIMARIA (Primary key): permite declarar un atributo o conjunto de atributos como la clave primaria de una relación. Esta clave primaria tiene la función de identificar de manera única cada tupla dentro de la relación, asegurando que no haya duplicados y proporcionando una forma única de referenciar cada registro en la tabla.
     
 2) RESTRICCIÓN DE UNICIDAD (Unique): nos permite definir claves alternativas.
    
 3) RESTRICCIÓN DE OBLIGATORIEDAD (Not Null): esta restricción asegura que los atributos designados deben tener información válida en cada tupla de la relación y no pueden quedar sin información (NULO). Esto garantiza la integridad de los datos y ayuda a evitar inconsistencias en la base de datos.
    
-4) 
+4) RESTRICCIÓN DE CLAVE AJENA ó DE INTEGRIDAD REFERENCIA (Foreign Key): Permite enlazar relaciones (tablas) de una BD. La restricción de clave ajena es como un "enlace" entre dos tablas en una base de datos. Imagina que tienes una tabla de "Clientes" y otra de "Pedidos". La restricción de clave ajena asegura que, por ejemplo, si tienes un "ID_Cliente" en la tabla "Pedidos", ese ID realmente exista en la tabla "Clientes". 
+   
+5) RESTRICCIÓN DE VERIFICACIÓN (Check): Permite establecer condiciones específicas que los datos deben cumplir al ingresar o modificarse en una tabla. Define reglas o condiciones que los valores de un atributo deben cumplir. Por ejemplo, podrías tener una restricción de verificación que asegure que la edad de una persona sea mayor de 18 años.
+   
+6) RESTRICCIÓN DE ASERCIÓN ó ASERTOS (Assertion): permite establecer reglas más complejas y específicas en tu base de datos para adaptarse a las necesidades particulares de tu aplicación.
+   
+7) DISPARADORES (Trigger): Los triggers son como "guardianes automáticos" que se activan cuando sucede algo en la base de datos, permitiendo ejecutar acciones específicas para mantener la integridad y realizar tareas automatizadas.
+
+
+## FUNDAMENTACIÓN MATEMÁTICA DEL MODELO RELACIONAL
+
+Parte dinamica del MR:
+
+- Álgebra relacional
+- Normalizacion de Relaciones
+
+## ALGEBRA RELACIONAL
+
+El algebra relacional es propia del Modelo Relacional  y se puede cosiderar como`` lenguaje  de consulta procedimental``:
+- ``de consulta``: porque mediante él se solicita información contenida en la Base de Datos.
+- ``procedimental``: porque es necesario indicar la secuencia de operaciones a realizar sobra la base de datos para obtener el resultado.
+
+## TIPOS DE OPERACIONES DE ÁLGEBRA RELACIONAL
+
+![](./img/OperacionesAR.PNG)
+
+### SELECCIÓN Ó RESTRICCIÓN 
+
+![](./img/SeleccionRestriccion.PNG)
+
+La seleccion o restriccion se utiliza para seleccionar las tuplas que cumplen con ciertas condiciones de una relación.
+Ejemplos:
+
+- Seleccionar empleados de un departamento:
+  - Departamento = `"Ventas"`
+
+  - Esto seleccionará todas las tuplas de la relación "Empleados" donde el departamento sea 'Ventas'.
+
+- Seleccionar pedidos realizados después del 1 de enero de 2023:
+    - Fecha_pedido>`"2023-02-02"`
+
+![](./img/SeleccionRestriccionEjemplo.PNG)
+
+### PROYECCIÓN
+![](./img/Proyeccion.PNG)
+
+Se utiliza para seleccionar columnas específicas de una relación, descartando el resto de las columnas.
+
+Seria el SELECT en SQL
+
+![](./img/ProyeccionEjemplo.PNG)
+
+### UNION
+![](./img/Union.PNG)
+
+Se utiliza para combinar las tuplas de dos relaciones que tienen el mismo esquema, es decir, las mismas columnas. Es SQL, la union se realiza utilizando la cláusula "UNION"
+![](./img/UnionEjemplo.PNG)
+
+### DIFERENCIA
+
+![](./img/Diferencia.PNG)
+
+
 
 
 
