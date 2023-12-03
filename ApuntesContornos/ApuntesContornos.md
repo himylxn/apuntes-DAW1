@@ -86,6 +86,40 @@ Este tipo de lenguaje usa una "máquina virtual" para ejecutar un código interm
 
 - **``Usa una "máquina virtual" para ejecutar el código, permitiendo portabilidad. Ejemplo: Java.``**
 
+### Procesoso de generalización de codigo
+
+Los procesos de generalización de codigo comprencen las etapas necesarias para transformar el código fuente de un programa en un ejecutable que el ordenador puede entender y ejecutar.
+
+- Edición: Desarrollo y escritura del codigo fuente utilizando un IDE
+- Compilación: Verifica la corrección léxica, sintáctica y semántica del código.
+- Sintesis: Se genera el codigo intermedio y luego se traduce a lenguaje maquina
+- Enlace: Consiste en crear un archivo ejecutable
+- Ejecución: El programa resultante se ejecuta para producir los resultados deseados
+
+## Ciclo de Vida
+
+Proceso que ocurre desde que se concibe una idea hasta que se propaga.
+
+### Modelo en CASCADA
+
+Modelo en cascada es como seguir una receta paso a paso al desarrollar software. Cada fase se completa antes de pasar a la siguiente.
+
+1. Analisis : Que hay que hacer?
+2. Diseño: Cómo hacerlo?
+3. Codificación: Desarrollo
+4. Pruebas: Validación y verificación del software
+5. Instalación: Despliegue
+6. Mantenimiento: Cambios
+7. Documentación: Documentar
+
+### Modelo en ESPIRAL
+
+Éste modelo se basa en la creación de un prototipo de proyecto e irlo perfercionando a medida que se añaden nuevos requisitos.
+
+### SCRUM
+
+
+
 
 
 
