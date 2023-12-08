@@ -4,40 +4,38 @@ Sirve para virtualizar sin necesidad de infraetructura (VirtualVox), sirve para 
 
 Docker es un sistema operativo para contenedores. De manera similar a cómo una máquina virtual virtualiza (elimina la necesidad de administrar directamente) el hardware del servidor, los contenedores virtualizan el sistema operativo de un servidor.
 
-## Guia instalación
-- #### Hay que hacerse super usuario con "*sudo su -*"
-- #### Configurar aptel repositorio de Docker.
-- #### Actualizar repositorios
- ```bash
-sudo apt-get update
-``` 
-- #### Instalar
-```bash
--sudo apt-get install ca-certificates curl gnupg
-``` 
-
-```bash 
-sudo install -m 0755 -d /etc/apt/keyrings
-``` 
-
-```bash
- curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg sudo chmod a+r /etc/apt/keyrings/docker.gpg
-``` 
-
-```bash
-echo \
-  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
-  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-``` 
-- #### Upgradear
-```bash
-sudo apt-get update
-```
-
 
 # Servidor
 Un servidor web es un programa que están constantemente escuchando
 
 - APACHE es el mas famoso
+
+## Que es un sistema operativo?
+
+Un sistema operativo es un software fundamental que actúa como intermedio entre el hardware y el usuario. Trata de simplificar el manejo de un ordenador y además haciendolo mas eficiente.
+
+## El sistema operativo está formado por:
+
+### Kernel (Núleo)
+Es el nucleo del sistema operativo y se encarga de la gestion de los recursos.
+
+### Servicios
+Ofrece a los programas una serie de funciones estandar y seguras para realizar tareas.
+
+### Shell o Interfaz de Usuario
+Es la interfaz que permite la interaccion entre el usuario y el sistema operativo
+
+## El S.O como gestor de recursos
+El sistema operativo se encarga de decidir cuantos recursos le va a dar en cada momento a cada aplicación.
+
+- Asigna Recursos
+- Proteccion (impide que programas accedan a los recursos asignados a otros programas)
+- Contabilidad(mide que cantidad le da a cada aplicación)
+
+## Los servicios tiene
+
+
+
+
+
 

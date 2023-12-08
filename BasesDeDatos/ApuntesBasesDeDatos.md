@@ -30,7 +30,7 @@
 - **`N:1 (Muchos a Uno):`** Similar a 1:N, pero ahora la relación es de muchos a uno.
 
 - **`1:1 (Uno a Uno):`** Se requiere revisar ambos lados; es crucial evitar valores nulos.
-    - Ejemplo: (0,1) en ambos lados pasa a (1,1).
+    - Ejemplo: (0,1) en algun lado la clave (1,1) pasa a la (0,1) para evitar nulos.
     - Si hay (0,1) en ambos lados, se crea una tabla nueva.
 
 **`Importante: En caso de cardinalidades (1,1), es obligatorio; si es (0,1), se admiten valores nulos.`**
@@ -81,8 +81,6 @@ Todo modelo de datos es una combinación de 3 componentes agrupados en 2 partes,
 ![](./img/PartesModeloDatos.PNG) 
 
 En el contexto de los modelos de datos, la **parte estática** y **dinámica** se refiere a dos aspectos distintos:
-
-## Parte Estática del Modelo de Datos
 
 ### Definición de Estructura:
 En esta parte, se describe la **estructura** de la base de datos, incluyendo **tablas**, sus **columnas** y las **relaciones** entre ellas.
