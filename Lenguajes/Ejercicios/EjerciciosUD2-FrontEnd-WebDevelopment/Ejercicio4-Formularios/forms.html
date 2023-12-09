@@ -15,43 +15,93 @@
 
     <h1>Create a burguer!</h1>
 
-    <form>
-        <p>
-            <label for="tipo">Tipo de carne:
-                <input type="text" id="tipo">
-            </label>
-        </p>
+    <section>
+        <form method="post">
+            <p>
+                <label for="tipo">Tipo de carne:
+                    <input type="text" id="tipo">
+                </label>
+            </p>
 
-        <p>
-            <label for="cantidad">Cantidad de Carnes:
-                <input type="text" id="cantidad">
-            </label>
-        </p>
+            <hr>
 
-        <p>
-            <label for="punto">Punto de carne:
-                Poco hecha <input type="range" id="punto"> Muy hecha
-            </label>
-        </p>
+            <p>
+                <label for="cantidad">Cantidad de Carnes:
+                    <input type="text" id="cantidad">
+                </label>
+            </p>
 
-        <p>
-            <label for="complementos">Que complementos quieres?
-                <input type="checkbox" id="complementos">
-                
-            </label>
-        </p>
-    </form>
+            <hr>
 
-    <form>
-        <label for="checkbox1">Opción 1:</label>
-        <input type="checkbox" id="checkbox1" name="opcion1">
+            <p>
+                <label for="punto">Punto de carne: <br>
+                    Poco hecha <input type="range" id="punto"> Muy hecha
+                </label>
+            </p>
 
-        <label for="checkbox2">Opción 2:</label>
-        <input type="checkbox" id="checkbox2" name="opcion2">
+            <hr>
 
-        <label for="checkbox3">Opción 3:</label>
-        <input type="checkbox" id="checkbox3" name="opcion3">
-    </form>
+            <p>
+                <label for="complementos">Que complementos quieres? <br>
+                    Lechuga:<input type="checkbox" name="lechuga" id="lechuga">
+                    Tomate:<input type="checkbox" name="tomate" id="tomate">
+                    Pepinillos:<input type="checkbox" name="pepinillos" id="pepinillos">
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="queso">Quieres añadir queso?
+                    <input type="radio" name="si" id="yes">Si
+                    <input type="radio" name="no" id="no">No
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="pan"> Con que tipo de pan quieres la hamburguesa?
+                    <select id="tipopan">
+                        <option value="normal">Normal</option>
+                        <option value="integral">Integral</option>
+                        <option value="singluten">SinGluten</option>
+                    </select>
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="salsa">Elige o escribe tu salsa:
+                    <input list="salsas">
+
+                    <datalist id="salsas">
+                        <option value="Salsa 1"></option>
+                        <option value="Salsa 2"></option>
+                        <option value="Salsa 3"></option>
+                    </datalist>
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="comentarios">Comentarios: <br>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="4"></textarea>
+                </label>
+            </p>
+
+            <hr>
+
+            <input type="button" value="Enviar">
+
+
+
+        </form>
+
+
+    </section>
 
 
 
