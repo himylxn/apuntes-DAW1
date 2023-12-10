@@ -34,6 +34,74 @@ El sistema operativo se encarga de decidir cuantos recursos le va a dar en cada 
 
 ## Los servicios tiene
 
+# Comandos
+
+## Comandos precticar
+
+Crea la siguiente estructura de directorios ~/one/two/tres de una sola vez, con un solo comando y sin que existan uno, dos o tres.
+```shell
+
+```
+
+Muestra la estructura de directorios completa de tu hombre.
+```shell
+
+```
+
+Lista los directorios etc que empiezan con e
+```shell
+
+```
+
+Lista los dispositivos delequpo que empiezan con c y su tercera letra es una r
+```shell
+
+```
+
+Listar todos los discos duros y particiones del equipo
+```shell
+
+```
+
+Lista el contenido del directorio de inicio del usuario actualmente conectado, mostrando archivos ocultos y ordenados del más antiguo al más nuevo.
+```shell
+
+```
+
+Como se puede diferenciar un arquivo de un directorio del resultado anterior?
+```shell
+
+```
+
+Indica tres comandos para ver el contido de un archivo sin utilizar un editor.
+```shell
+
+```
+
+Indica quienes son los propietarios (usuario y grupos) del archivo /etc/passwd y que comando usastes para saberlo
+```shell
+
+```
+
+Un usuario "normal" puede ler el contido de /etc/passwd? Y el de /etc/shadow? Por que?
+```shell
+
+```
+
+Crea un directorio denominado propietario en tu home. Ahora haz una copia de /etc/passwd a ese nuevo directorio, quien son sus propietarios?
+```shell
+
+```
+
+Crea un ficheiro vacio y oculto que se llame oculto.txt
+```shell
+
+```
+
+Ahora mete en el archivo anterior el seguinte contenido "Este archivo está oculto". Solo puedes hacerlo con comandos, no con editores
+```shell
+
+```
 
 
 
