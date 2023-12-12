@@ -73,7 +73,7 @@ footer nav ul{
         display: flex;
         justify-content: space-between;
     }
-
+    
     #menu{
         display: flex;
         flex-direction: row;
