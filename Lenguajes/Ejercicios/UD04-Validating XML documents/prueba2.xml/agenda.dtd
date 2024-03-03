@@ -1,0 +1,9 @@
+<!ELEMENT agenda (contacto)>
+<!ELEMENT contacto (nombre,apellidos,direccion)>
+<!ATTLIST nombre id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT direccion (calle,poblacion,cp)>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+
+
+<agenda>
+    <contacto>
+        <nombre id="234">Juan</nombre>
+        <apellidos>Perez Lopez</apellidos>
+        <direccion>
+            <calle>Norte</calle>
+            <poblacion>Alcazar</poblacion>
+            <cp>15079</cp>
+        </direccion>
+    </contacto>
+</agenda>
