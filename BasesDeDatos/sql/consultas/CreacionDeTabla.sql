@@ -1,0 +1,103 @@
+create database EUROVISION_Dylan
+GO
+
+USE EUROVISION_Dylan
+GO
+
+
+
+
+--- TABLA INTERPRETE
+CREATE TABLE INTERPRETE(
+numero int NOT NULL,
+nombre varchar(40) NOT NULL,
+fechanac date NULL,
+num_cancion int NOT NULL
+
+CONSTRAINT PK_INTERPRETE_numero PRIMARY KEY (numero),
+CONSTRAINT UQ_INTERPRETE_nombre UNIQUE (nombre),
+CONSTRAINT CHK_INTERPRETE_edad_minima CHECK (datediff(year,fechanac,getdate()) >= 16)
+
+);
+
+
+
+
+
+--- TABLA CANCION
+CREATE TABLE CANCION(
+numero int NOT NULL,
+titulo varchar(80) NOT NULL,
+id_pais int NOT NULL
+
+CONSTRAINT PK_CANCION_numero PRIMARY KEY (numero),
+CONSTRAINT UQ_PAIS_id_pais UNIQUE (id_pais)
+
+);
+
+
+
+
+
+
+--- TABLA PAIS 
+CREATE TABLE PAIS( 
+identificador int NOT NULL, 
+denominacion varchar(70) NOT NULL,
+
+CONSTRAINT PK_PAIS_identificador PRIMARY KEY (identificador),
+CONSTRAINT UQ_PAIS_denominacion UNIQUE (denominacion)
+);
+
+
+
+
+--- TABLA VOTACION
+CREATE TABLE VOTACION(
+puntos int NOT NULL CONSTRAINT DF_VOTACION_puntos DEFAULT (0),
+id_pais_vota_a int NOT NULL,
+id_pais_es_votado_por int NOT NULL,
+
+CONSTRAINT PK_VOTACION PRIMARY KEY (id_pais_vota_a, id_pais_es_votado_por),
+---CONSTRAINT DF_VOTACION_puntos DEFAULT (0) FOR puntos
+);
+
+
+
+
+
+
+/*** CLAVES FORÁNEAS ***/
+ALTER TABLE INTERPRETE 
+ADD 
+CONSTRAINT FK_CANCION_num_cancion
+	FOREIGN KEY(num_cancion)
+	REFERENCES CANCION (numero)
+	ON UPDATE CASCADE;
+-- ON DELETE NO ACTION; LA OPCION DEFAULT ES BORRADO RESTRINGIDO ASÍ QUE DA IGUAL PONERLO O NO.
+
+
+ALTER TABLE CANCION
+ADD
+CONSTRAINT FK_PAIS_id_pais
+	FOREIGN KEY (id_pais)
+	REFERENCES PAIS (identificador)
+	ON UPDATE CASCADE;
+-- ON DELETE NO ACTION; LA OPCION DEFAULT ES BORRADO RESTRINGIDO ASÍ QUE DA IGUAL PONERLO O NO.
+
+
+ALTER TABLE VOTACION
+ADD -- ADD SOLO SE INDICA UNA VEZ
+CONSTRAINT FK_VOTACION_PAIS_id_pais_vota_a
+	FOREIGN KEY (id_pais_vota_a)
+	REFERENCES PAIS (identificador),
+CONSTRAINT FK_VOTACION_PAIS_pais_es_votado_por
+	FOREIGN KEY (id_pais_es_votado_por)
+	REFERENCES PAIS (identificador);
+
+
+
+
+
+
+

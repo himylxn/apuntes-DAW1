@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-model href="ejercicio2.dtd"?>
+<message>
+
+    <from>maria@gmail.com</from>
+ 
+    <to>ignacio@gmail.com</to>
+ 
+    <to>cristina@edu.xunta.gal</to>
+ 
+    <subject>Sending files</subject>
+ 
+    <attachment>D:\photos\phishing.jpg</attachment>
+ 
+    <attachment>D:\docs\letter.odt</attachment>
+ 
+    <attachment>D:\fotos\dinner.jpg</attachment>
+ 
+ </message>

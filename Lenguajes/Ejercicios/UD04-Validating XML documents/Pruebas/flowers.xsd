@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="flowers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="flower" type="flowerType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="flowerType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="tulip" />
+            <xs:enumeration value="cactus" />
+            <xs:enumeration value="dandilion" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

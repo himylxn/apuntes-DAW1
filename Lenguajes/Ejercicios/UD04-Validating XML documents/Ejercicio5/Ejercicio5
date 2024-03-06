@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tag [
+    <!ELEMENT tag (name, street, city, country, postalCode)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT country (#PCDATA)>
+    <!ELEMENT postalCode (#PCDATA)>
+]>
+
+<tag>
+    <name>Pepe García</name>
+    <street>C/Ronda, 3</street>
+    <city>Santiago</city>
+    <country>España</country>
+    <postalCode>18465</postalCode>
+</tag>

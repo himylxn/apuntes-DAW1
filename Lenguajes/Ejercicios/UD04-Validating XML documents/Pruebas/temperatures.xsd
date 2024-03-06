@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="temperatures">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="daily" type="dailyType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="dailyType">
+        <xs:list itemType="xs:decimal"/>
+    </xs:simpleType>
+</xs:schema>

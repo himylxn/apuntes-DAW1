@@ -1,0 +1,18 @@
+<shiporder>
+    <orderperson>
+        <orderid></orderid>
+    </orderperson>
+    <shipto>
+        <name></name>
+        <address></address>
+        <city></city>
+        <country></country>
+    </shipto>  
+
+    <item>
+        <title></title>
+        <note></note>
+        <quantity></quantity>
+        <price></price>
+    </item>
+</shiporder>

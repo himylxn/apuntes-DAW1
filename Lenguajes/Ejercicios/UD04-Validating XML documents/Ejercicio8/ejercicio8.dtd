@@ -1,0 +1,16 @@
+<!ELEMENT library (book,journal,misc)>
+<!ELEMENT book (title,editor,publisher)>
+<!ATTLIST book id NMTOKEN #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT journal (title,volume)>
+<!ATTLIST journal id NMTOKEN #REQUIRED>
+<!ATTLIST journal publ_year NMTOKEN #REQUIRED>
+<!ELEMENT volume (#PCDATA|number)*>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT misc (author,title,year,pages)>
+<!ATTLIST misc id NMTOKEN #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
