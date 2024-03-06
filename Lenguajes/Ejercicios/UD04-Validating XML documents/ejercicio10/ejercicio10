@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE folks [
-    <!ELEMENT folks (person*)>
+    <!ELEMENT folks (person+)>
     <!ELEMENT person (name)>
-    <!ELEMENT name (#PCDATA)>
     <!ATTLIST person pin ID #REQUIRED>
     <!ATTLIST person friend IDREF #IMPLIED>
     <!ATTLIST person likes IDREFS #IMPLIED>
+    <!ELEMENT name (#PCDATA)>
 ]>
 
 <folks>

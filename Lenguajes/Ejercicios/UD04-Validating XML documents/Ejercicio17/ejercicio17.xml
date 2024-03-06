@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<shiporder orderid="99" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Ejercicio17.xsd">
+    <orderperson>Hola muy buenas</orderperson>
+
+    <shipto>
+        
+        <name>Juan</name>
+        <address>Rua das fontiñas</address>
+        <city>dadada</city>
+        <country>dadadad</country>
+    </shipto>
+
+    <item>
+        <title>diaoidaondoaind</title>
+        <note>daidiadiauhdiuahda</note>
+        <quantity>100</quantity>
+        <price>12.2</price>
+    </item>
+
+    <item>
+        <title>diaoidaondoaind</title>
+        <note>daidiadiauhdiuahda</note>
+        <quantity>100</quantity>
+        <price>12.2</price>
+    </item>
+
+</shiporder>
