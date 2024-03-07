@@ -130,7 +130,7 @@ tree
 ```
 
 Lista los directorios etc que empiezan con e
-```shell
+```shell 
 ls e*
 ```
 
