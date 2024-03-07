@@ -74,11 +74,37 @@ echo "Ola mundo"
 Imprtante dar permisos para poder ejecutar el archivo con:
 
 ´´´bash
+chmod +x script.sh
+´´´ç
+
+## Como crear una variable en bash
+
+´´´bash
+variable1="hola muy buenos dias"
+´´´
+
+Ejemplo:
+
+´´´bash
+variable1="Hola me llamo"
+variable2="Dylan"
 ´´´
 
 
+## Salida en bash
 
+´´´bash
+variable1="Hola me llamo"
+variable2="Dylan"
 
+echo "La frase que forme con las variables es $variable1 $variable2"
+´´´
+
+## Entrada en bash
+
+´´´bash
+read -p 
+´´´
 
 
 
