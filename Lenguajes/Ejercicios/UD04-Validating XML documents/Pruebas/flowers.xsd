@@ -9,9 +9,9 @@
     </xs:element>
     <xs:simpleType name="flowerType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="tulip" />
-            <xs:enumeration value="cactus" />
-            <xs:enumeration value="dandilion" />
+            <xs:enumeration value="tulip"/>
+            <xs:enumeration value="cactus"/>
+            <xs:enumeration value="dandilion"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
