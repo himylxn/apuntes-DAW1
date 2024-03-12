@@ -7,4 +7,10 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="priceType">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+            <xs:totalDigits value="3"></xs:totalDigits>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
