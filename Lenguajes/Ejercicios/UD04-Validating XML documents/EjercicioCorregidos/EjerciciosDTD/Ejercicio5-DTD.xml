@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tag [
+    <!ELEMENT tag (name, street, city, country, postalCode)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT country (#PCDATA)>
+    <!ELEMENT postalCode (#PCDATA)>
+]>
+<tag>
+    <name>Pepe García</name>
+    <street>C/Ronda, 3</street>
+    <city></city>
+    <country>España</country>
+    <postalCode>18465</postalCode>
+</tag>
+
+<!-- MAL HECHO-->
+<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tag [
+    <!ELEMENT tag (name, street, city, country, postalCode)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT country (#PCDATA)>
+    <!ELEMENT postalCode (#PCDATA)>
+]>
+    <name>Pepe García</name>
+    <street>C/Ronda, 3</street>
+    <country>España
+    <country>
+    <postalCode>18465</postalCode>
+</tag>
+-->

@@ -1,0 +1,23 @@
+<cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="cards.xsd">
+    <card>
+        <name>Antonio Machado Ruiz</name>
+        <initials>a m r</initials>
+        <age>22</age>
+    </card>
+    <card>
+        <name>Mario Moreno</name>
+        <initials>m m o</initials>
+        <age>23</age>
+    </card>
+    <card>
+        <name>Ada Lovelace</name>
+        <initials>a l o</initials>
+        <age>24</age>
+    </card>
+    <card>
+        <name>pablo ruiz picasso</name>
+        <initials>p r p</initials>
+        <age>24</age>
+    </card>
+</cards>

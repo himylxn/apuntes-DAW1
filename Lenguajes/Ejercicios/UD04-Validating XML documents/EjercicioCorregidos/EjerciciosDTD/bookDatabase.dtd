@@ -1,0 +1,14 @@
+<!ENTITY % content1 "chapter, description">
+    <!ENTITY prueba "Structure">
+    <!ELEMENT bookDatabase (book+)>
+    <!ELEMENT book (author+, image?,content+,newchapters?)>
+    <!ATTLIST book bookID ID #REQUIRED>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT content (%content1;)>
+            <!ELEMENT chapter (#PCDATA)>
+            <!ATTLIST chapter number NMTOKEN #REQUIRED>
+            <!ELEMENT description ( EMPTY | (section+,summary?))>
+                <!ELEMENT section (#PCDATA)>
+                <!ELEMENT summary (#PCDATA)>
+        <!ELEMENT image (#PCDATA)>
+        <!ELEMENT newchapters (%content1;)>
