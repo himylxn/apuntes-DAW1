@@ -1,0 +1,12 @@
+<juicers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="juicers.xsd">
+    <juicer>
+        <name>Juicerinator3000-XXL</name>
+        <image>C:/Hola/adios/../fol.svg</image>
+        <description>abbgxvjfdnbd</description>
+        <warranty>2 años</warranty>
+        <weight>50.03</weight>
+        <cost>881.5</cost>
+        <retailer>Epsilon</retailer>
+    </juicer>
+</juicers>

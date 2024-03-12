@@ -1,0 +1,11 @@
+<records xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="records.xsd">
+<record>
+    <name>Ana Filgueira Agra</name>
+    <password>G8w2</password>
+</record>
+<record>
+    <name>Alberte Rubio Regueira</name>
+    <password>ag32Ue7AFF</password>
+</record>
+</records>
