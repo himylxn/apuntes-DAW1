@@ -7,11 +7,18 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="name" type="xs:string" />
-                            <xs:element name="password" type="xs:string" />
+                            <xs:element name="password" type="password" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="password">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="4"/>
+            <xs:maxLength value="10"/>
+            <xs:pattern value="a-zA-Z/d0-9"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
