@@ -68,7 +68,7 @@
                                                                 <xs:element name="language"
                                                                     type="xs:string" />
                                                             </xs:sequence>
-                                                            <xs:attribute name="code" use="required" />
+                                                            <xs:attribute name="code" use="required" type="codeType"/>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
@@ -108,4 +108,9 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="codeType">
+        <xs:restriction>
+            <xs:pattern value="[0-9]{2}-[A-Z]{2}-[0-9]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

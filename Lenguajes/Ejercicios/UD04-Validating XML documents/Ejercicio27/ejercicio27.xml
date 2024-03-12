@@ -1,7 +1,8 @@
 <youtube xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="ejercicio27.xsd">
     <videos>
-        <video> XSD Overview <url>https://www.youtube.com/watch?v=PpvX3izvRWU</url>
+        <video> XSD Overview 
+            <url>https://www.youtube.com/watch?v=PpvX3izvRWU</url>
             <views>112000</views>
             <comments>
                 <good>200000</good>
