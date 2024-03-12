@@ -1,5 +1,5 @@
 <bond_movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="ejercicio20.xsd" month="August" year="2013"> >
+ xsi:noNamespaceSchemaLocation="ejercicio20.xsd" >
     <movie number="_01">
         <title>Dr. No</title>
         <bond>Sean Connery</bond>

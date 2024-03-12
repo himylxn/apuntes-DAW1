@@ -10,13 +10,25 @@
                             <xs:element name="bond" type="xs:string" />
                             <xs:element name="bond_girl" type="xs:string" />
                             <xs:element name="regie" type="xs:string" />
-                            <xs:element name="year" type="xs:gYear" />
+                            <xs:element name="year" type="xs:positiveInteger" />
                             <xs:element name="duration" type="durationType" />
                         </xs:sequence>
-                        <xs:attribute name="number" use="required" />
+                        <xs:attribute name="number" use="required" type="numberType" />
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="durationType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxInclusive value="300"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="numberType">
+        <xs:restriction base="xs:string">
+            <xs:length value="3"></xs:length>
+            <xs:pattern value="_\d{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
