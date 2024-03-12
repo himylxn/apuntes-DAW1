@@ -4,7 +4,8 @@
 
 
 ### Ayuda
-Con get-help consigues la ayuda y con el parametro -examples te da ejemplos
+Con get-help consigues la ayuda y con el parametro
+-examples te da ejemplos
 
 ```powershell
 get-help get-date -examples
