@@ -53,10 +53,10 @@
                                                                             <xs:element
                                                                                 name="server">
                                                                                 <xs:complexType>
-                                                                                    <xs:sequence>
+                                                                                    <xs:choice>
                                                                                         <xs:element
                                                                                             name="iessanclemente.net" />
-                                                                                    </xs:sequence>
+                                                                                    </xs:choice>
                                                                                 </xs:complexType>
                                                                             </xs:element>
                                                                         </xs:sequence>
@@ -109,7 +109,7 @@
         </xs:complexType>
     </xs:element>
     <xs:simpleType name="codeType">
-        <xs:restriction>
+        <xs:restriction base="xs:string">
             <xs:pattern value="[0-9]{2}-[A-Z]{2}-[0-9]{2}"></xs:pattern>
         </xs:restriction>
     </xs:simpleType>
