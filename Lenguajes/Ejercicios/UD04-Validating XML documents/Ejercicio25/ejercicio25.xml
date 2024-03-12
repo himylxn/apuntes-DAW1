@@ -2,22 +2,22 @@
     xsi:noNamespaceSchemaLocation="cards.xsd">
     <card>
         <name>Antonio Machado Ruiz</name>
-        <initials>AMR</initials>
+        <initials>a d a</initials>
         <age>22</age>
     </card>
     <card>
         <name>Mario Moreno</name>
-        <initials>MM</initials>
+        <initials>m m m</initials>
         <age>23</age>
     </card>
     <card>
-        <initials>ALO</initials>
         <name>Ada Lovelace</name>
+        <initials>m m m</initials>
         <age>24</age>
     </card>
     <card>
         <name>pablo ruiz picasso</name>
-        <initials>prp</initials>
+        <initials>p r p</initials>
         <age>24</age>
     </card>
 </cards>
