@@ -197,7 +197,7 @@ Imprtante dar permisos para poder ejecutar el archivo con:
 
 ´´´bash
 chmod +x script.sh
-´´´ç
+´´´
 
 ## Como crear una variable en bash
 
