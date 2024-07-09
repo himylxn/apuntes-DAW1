@@ -1,0 +1,20 @@
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="shiporder.xsd" orderid="O1">
+    <orderperson>Sergio</orderperson>
+    <shipto>
+        <name>AnclaDos</name>
+        <address></address>
+        <city>Puerto del Carmen</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Lienzo</title>
+        <quantity>1</quantity>
+        <price>0.0</price>
+    </item>
+    <item>
+        <title>Ordenador</title>
+        <note>"Hola mundo"</note>
+        <quantity>13</quantity>
+        <price>10.0</price>
+    </item>
+</shiporder>

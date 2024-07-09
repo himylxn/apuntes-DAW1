@@ -1,0 +1,9 @@
+
+<!ELEMENT artists (artist+,album)>
+<!ELEMENT artist EMPTY>
+<!ATTLIST artist name CDATA #REQUIRED>
+<!ATTLIST artist artistID ID #REQUIRED>
+<!ELEMENT album EMPTY>
+<!ATTLIST album name CDATA #REQUIRED>
+<!ATTLIST album albumArtistID IDREF #IMPLIED>
+<!ATTLIST album contributingArtistIDs IDREFS #IMPLIED>

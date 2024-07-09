@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="juicers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="juicer">
+                    <xs:complexType>
+                        <xs:group ref="juicerGroup" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="moneyType">
+        <xs:restriction base="xs:decimal">
+            <xs:totalDigits value="5" />
+            <xs:fractionDigits value="2" />
+            <xs:pattern value="([0-9]?){2}[0-9]\.[0-9][0-9]?" />
+            <xs:whiteSpace value="collapse" />
+            <xs:maxExclusive value="1000" />
+            <xs:minExclusive value="0" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="weightType">
+        <xs:restriction base="xs:double">
+            <xs:minExclusive value="0" />
+            <xs:maxInclusive value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="imageType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([A-Z]:)?/?(\.?\.?/[0-9A-Za-z\.]+)+\.(bmp|jpg|png|svg|gif|tiff)" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:group name="juicerGroup">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="image" type="imageType" />
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="warranty" type="xs:string" />
+            <xs:element name="weight" type="weightType" />
+            <xs:element name="cost" type="moneyType" />
+            <xs:element name="retailer" type="xs:string" />
+        </xs:sequence>
+    </xs:group>
+</xs:schema>

@@ -1,7 +1,0 @@
-<prices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="ejercicio24.xsd">
-    <price>8</price>
-    <price>2.6</price>
-    <price>4.95</price>
-    <price>187</price>
-</prices>

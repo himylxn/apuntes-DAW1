@@ -1,0 +1,33 @@
+<PurchaseOrderType>
+    <shipTo country="US">
+        <name></name>
+        <street></street>
+        <city></city>
+        <state></state>
+        <zip></zip>
+    </shipTo>
+
+    <billTo>
+        <name></name>
+        <street></street>
+        <city></city>
+        <state></state>
+        <zip></zip>
+    </billTo>
+
+    <comment></comment>
+
+    <Items>
+        <item>
+            <productName></productName>
+            <quantity></quantity>
+            <USPrice></USPrice>
+        </item>
+    </Items>
+
+    <orderDate></orderDate>
+
+   
+
+    <Items></Items>
+</PurchaseOrderType>

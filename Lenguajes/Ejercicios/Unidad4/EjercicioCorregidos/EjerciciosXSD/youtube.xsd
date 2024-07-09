@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="youtube">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="videos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="video">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element name="url" type="xs:string" />
+                                        <xs:element name="views" type="viewsType" />
+                                        <xs:element name="comments">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="good" type="goodType">
+                                                    </xs:element>
+                                                    <xs:element name="bad" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="subscribers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="subscriber">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="subscriptionDate">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="day"
+                                                                            type="xs:integer"
+                                                                            use="required" />
+                                                                        <xs:attribute name="month"
+                                                                            type="xs:string"
+                                                                            use="required" />
+                                                                        <xs:attribute name="year"
+                                                                            use="required">
+                                                                            <xs:simpleType>
+                                                                                <xs:restriction base="xs:integer">
+                                                                                    <xs:maxInclusive value="2023"/>
+                                                                                    <xs:minInclusive value="2020"/>
+                                                                                </xs:restriction>
+                                                                            </xs:simpleType>
+                                                                        </xs:attribute>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="comments">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute
+                                                                            name="quantity"
+                                                                            type="xs:integer"
+                                                                            use="required" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="email">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="user"
+                                                                                type="xs:string" />
+                                                                            <xs:element
+                                                                                name="server">
+                                                                                <xs:complexType>
+                                                                                    <xs:choice>
+                                                                                        <xs:element
+                                                                                            name="gmail" />
+                                                                                        <xs:element
+                                                                                            name="children" />
+                                                                                        <xs:element
+                                                                                            name="hotmail" />
+                                                                                        <xs:element
+                                                                                            name="iessanclemente.net" />
+                                                                                    </xs:choice>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute
+                                                                            name="completo"
+                                                                            use="required" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="language">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:string">
+                                                                            <xs:enumeration value="French"/>
+                                                                            <xs:enumeration value="Italian"/>
+                                                                            <xs:enumeration value="German"/>
+                                                                            <xs:enumeration value="English"/>
+                                                                            <xs:enumeration value="Chinese"/>
+                                                                            <xs:enumeration value="Korean"/>
+                                                                            <xs:enumeration value="Japanese"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="code" use="required" type="codeType" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="advertisement">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ad">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="company" type="xs:string" />
+                                        <xs:element name="bannersPerMinute" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="sponsoredAd">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="company" type="xs:string" />
+                                        <xs:element name="bannersPerMinute" type="xs:string" />
+                                        <xs:element name="youTubeDiscount" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="sponsor" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="availableLanguages" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="viewsType">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="100000000"></xs:maxInclusive>
+            <xs:minInclusive value="0"></xs:minInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="codeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{2}-\[[A-Z]{2}\]-[0-9]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="goodType">
+        <xs:restriction base="viewsType">
+            <xs:maxInclusive value="200000"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

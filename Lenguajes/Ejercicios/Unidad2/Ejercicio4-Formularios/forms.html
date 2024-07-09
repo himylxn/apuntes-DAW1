@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <img src="./img/burger-svgrepo-com.svg" alt="Hamburguesa" width="120px">
+
+    <hr>
+
+    <h1>Create a burguer!</h1>
+
+    <section>
+        <form method="post">
+            <p>
+                <label for="tipo">Tipo de carne:
+                    <input type="text" id="tipo">
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="cantidad">Cantidad de Carnes:
+                    <input type="text" id="cantidad">
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="punto">Punto de carne: <br>
+                    Poco hecha <input type="range" id="punto"> Muy hecha
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="complementos">Que complementos quieres? <br>
+                    Lechuga:<input type="checkbox" name="lechuga" id="lechuga">
+                    Tomate:<input type="checkbox" name="tomate" id="tomate">
+                    Pepinillos:<input type="checkbox" name="pepinillos" id="pepinillos">
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="queso">Quieres añadir queso?
+                    <input type="radio" name="si" id="yes">Si
+                    <input type="radio" name="no" id="no">No
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="pan"> Con que tipo de pan quieres la hamburguesa?
+                    <select id="tipopan">
+                        <option value="normal">Normal</option>
+                        <option value="integral">Integral</option>
+                        <option value="singluten">SinGluten</option>
+                    </select>
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="salsa">Elige o escribe tu salsa:
+                    <input list="salsas">
+
+                    <datalist id="salsas">
+                        <option value="Salsa 1"></option>
+                        <option value="Salsa 2"></option>
+                        <option value="Salsa 3"></option>
+                    </datalist>
+                </label>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="comentarios">Comentarios: <br>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="4"></textarea>
+                </label>
+            </p>
+
+            <hr>
+
+            <input type="button" value="Enviar">
+
+
+
+        </form>
+
+
+    </section>
+
+
+
+
+</body>
+
+</html>

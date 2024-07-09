@@ -1,0 +1,35 @@
+<bond_movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="bond_movies.xsd" month="August" year="2013">
+    <movie number="_01">
+        <title>Dr. No</title>
+        <bond>Sean Connery</bond>
+        <bond_girl>Ursula Andress</bond_girl>
+        <regie>Terence Young</regie>
+        <year>1962</year>
+        <duration>105</duration>
+    </movie>
+    <movie number="_02">
+        <title>From russia with love</title>
+        <bond>Sean Connery</bond>
+        <bond_girl>Daniela Bianchi</bond_girl>
+        <regie>Terence Young</regie>
+        <year>1963</year>
+        <duration>110</duration>
+    </movie>
+    <movie number="_03">
+        <title>Goldfinger</title>
+        <bond>Sean Connery</bond>
+        <bond_girl>Honor Blackman</bond_girl>
+        <regie>Guy Hamilton</regie>
+        <year>1964</year>
+        <duration>106</duration>
+    </movie>
+    <movie number="_04">
+        <title>Thunderball</title>
+        <bond>Sean Connery</bond>
+        <bond_girl>Claudine Auger</bond_girl>
+        <regie>Terence Young</regie>
+        <year>1965</year>
+        <duration>125</duration>
+    </movie>
+</bond_movies>

@@ -1,0 +1,14 @@
+<inventory>
+    <product code="AAA-111">
+        <name>Keyboard</name>
+        <weight unit="g">480</weight>
+    </product>
+    <product code="ACD-981">
+        <name>Monitor</name>
+        <weight unit="kg">1.8</weight>
+    </product>
+    <product code="DEZ-138">
+        <name>Mouse</name>
+        <weight unit="g">50</weight>
+    </product>
+</inventory>

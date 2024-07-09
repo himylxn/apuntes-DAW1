@@ -1,0 +1,11 @@
+<folks>
+    <person pin="p1">
+    <name>Paula</name>
+    </person>
+    <person pin="p2" friend="p1">
+    <name>Gonzalo</name>
+    </person>
+    <person pin="p3" likes="p2 p1">
+    <name>Catuxa</name>
+    </person>
+    </folks>

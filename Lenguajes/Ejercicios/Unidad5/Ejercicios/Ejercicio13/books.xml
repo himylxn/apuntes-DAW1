@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <title>A esmorga</title>
+        <author>Eduardo Blanco-Amor</author>
+        <isbn>9788471544261</isbn>
+        <price>7.55</price>
+    </book>
+    <book>
+        <title>Cousas</title>
+        <author>Alfonso Daniel R. Castelao</author>
+        <isbn>9788482887814</isbn>
+        <price>13.82</price>
+    </book>
+    <book>
+        <title>Trece badaladas</title>
+        <author>Suso de Toro</author>
+        <isbn>978483027882</isbn>
+        <price>23.70</price>
+    </book>
+</books>

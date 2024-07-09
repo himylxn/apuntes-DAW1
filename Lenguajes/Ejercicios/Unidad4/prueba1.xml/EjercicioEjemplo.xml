@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pizzas SYSTEM "file.dtd">
+
+<pizzas>
+    <pizza nombre="barbacoa" precio="8">
+        <ingrediente nombre="salsa barbacoa" />
+        <ingrediente nombre="queso" />
+        <ingrediente nombre="pollo" />
+        <ingrediente nombre="bacon" />
+        <ingrediente nombre="ternera" />
+    </pizza>
+
+    <pizza nombre="margarita">
+        <ingrediente nombre="tomate" />
+        <ingrediente nombre="jamon" />
+        <ingrediente nombre="queso" />
+
+        <bebida>
+            <refresco>cocacola</refresco>
+            <refresco>fanta</refresco>
+        </bebida>
+    </pizza>
+
+    <pizza nombre="4quesos">
+        <ingrediente nombre="parmesano" />
+        <ingrediente nombre="azul" />
+
+        <bebida>
+            <agua />
+        </bebida>
+    </pizza>
+
+</pizzas>

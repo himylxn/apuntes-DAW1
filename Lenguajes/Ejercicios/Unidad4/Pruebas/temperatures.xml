@@ -1,0 +1,6 @@
+<temperatures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="temperatures.xsd">
+    <daily>
+        4 3.2 7 8.5 9 11 
+    </daily>
+</temperatures>

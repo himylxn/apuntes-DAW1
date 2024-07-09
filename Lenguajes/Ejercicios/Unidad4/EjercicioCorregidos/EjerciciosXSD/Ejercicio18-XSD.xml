@@ -1,0 +1,11 @@
+<staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="staff.xsd">
+    <person number="1">
+        <name>Ana Nogueira Montes</name>
+        <age>22</age>
+    </person>
+    <person number="2">
+        <name>Arturo Pereira Mata</name>
+        <age>23</age>
+    </person>
+</staff>

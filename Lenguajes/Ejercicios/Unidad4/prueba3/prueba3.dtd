@@ -1,0 +1,5 @@
+<!ELEMENT message (from,to+,subject,attachment+)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT attachment (#PCDATA)>

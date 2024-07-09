@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE shiporder SYSTEM "prueba4.dtd">
+
+
+<shiporder orderid="889923">
+    <orderperson>María Casares</orderperson>
+    <shipto>
+        <name>Carlos Quintana</name>
+        <address>Rúa do home santo,5-1º</address>
+        <city>Santiago de Compostela</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Stolen</title>
+        <note>Special Edition</note>
+        <quantity>1</quantity>
+        <price>15.90</price>
+    </item>
+    <item>
+        <title>Ulysses</title>
+        <quantity>1</quantity>
+        <price>29.90</price>
+    </item>
+</shiporder>	

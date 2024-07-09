@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana;
+}
+
+h1{
+    color: #c14b4f;
+}
+
+th{
+    background-color: #c14b4f;
+    border: 2px solid #c14b4f;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+table{
+    border: 2px solid #c14b4f;
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid #c14b4f;
+    font-size: 1.5em;
+    padding: 5px;
+}
+

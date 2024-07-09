@@ -1,0 +1,2726 @@
+
+        Records:
+        
+        ID:1
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1811
+         08
+         26
+      
+        ID:2
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         01
+         05
+      
+        ID:3
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         01
+         05
+      
+        ID:4
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         07
+         13
+      
+        ID:5
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         07
+         20
+      
+        ID:6
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         07
+         20
+      
+        ID:7
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         07
+         20
+      
+        ID:8
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         07
+         06
+      
+        ID:9
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         21
+      
+        ID:10
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         21
+      
+        ID:11
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         24
+      
+        ID:12
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         24
+      
+        ID:13
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         28
+      
+        ID:14
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         28
+      
+        ID:15
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         03
+      
+        ID:16
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         31
+      
+        ID:17
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         08
+         07
+      
+        ID:18
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         21
+      
+        ID:19
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         10
+         02
+      
+        ID:20
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         10
+         09
+      
+        ID:21
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         10
+         09
+      
+        ID:22
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         10
+         09
+      
+        ID:23
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         10
+         09
+      
+        ID:24
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         10
+         09
+      
+        ID:25
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         11
+         20
+      
+        ID:26
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         11
+         23
+      
+        ID:28
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         11
+         23
+      
+        ID:29
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         11
+         23
+      
+        ID:31
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         11
+         27
+      
+        ID:32
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         11
+      
+        ID:33
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         11
+      
+        ID:34
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         11
+      
+        ID:35
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         14
+      
+        ID:36
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         14
+      
+        ID:37
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         14
+      
+        ID:38
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         14
+      
+        ID:40
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         14
+      
+        ID:41
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         14
+      
+        ID:42
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         14
+      
+        ID:43
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         18
+      
+        ID:44
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         18
+      
+        ID:45
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         18
+      
+        ID:46
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         18
+      
+        ID:47
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         18
+      
+        ID:48
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         18
+      
+        ID:49
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         21
+      
+        ID:50
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         21
+      
+        ID:51
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         25
+      
+        ID:52
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         25
+      
+        ID:53
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         04
+      
+        ID:54
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         04
+      
+        ID:55
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         07
+      
+        ID:56
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         07
+      
+        ID:57
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         07
+      
+        ID:58
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         12
+         07
+      
+        ID:59
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         01
+         01
+      
+        ID:60
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         01
+         04
+      
+        ID:61
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         01
+         04
+      
+        ID:62
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         01
+         04
+      
+        ID:63
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         01
+         04
+      
+        ID:64
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         04
+         16
+      
+        ID:65
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         07
+         12
+      
+        ID:67
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         07
+         12
+      
+        ID:68
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         07
+         09
+      
+        ID:69
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         08
+         16
+      
+        ID:70
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         09
+         17
+      
+        ID:71
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         10
+         04
+      
+        ID:72
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         15
+      
+        ID:73
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         19
+      
+        ID:74
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         19
+      
+        ID:76
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         22
+      
+        ID:78
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         26
+      
+        ID:80
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         26
+      
+        ID:81
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         29
+      
+        ID:82
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         29
+      
+        ID:84
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         08
+      
+        ID:85
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         12
+         13
+      
+        ID:86
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         02
+         01
+      
+        ID:87
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         05
+         23
+      
+        ID:89
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         04
+         23
+      
+        ID:90
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         04
+         23
+      
+        ID:91
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         08
+         06
+      
+        ID:92
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         01
+         14
+      
+        ID:93
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         07
+         22
+      
+        ID:94
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         07
+         22
+      
+        ID:95
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         07
+         29
+      
+        ID:96
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         10
+         07
+      
+        ID:99
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         02
+         10
+      
+        ID:100
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         02
+         14
+      
+        ID:101
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         02
+         07
+      
+        ID:102
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1802
+         07
+         01
+      
+        ID:103
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1810
+         06
+         09
+      
+        ID:104
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1812
+         08
+         29
+      
+        ID:105
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1812
+         10
+         03
+      
+        ID:106
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1812
+         10
+         03
+      
+        ID:107
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1812
+         11
+         09
+      
+        ID:108
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1813
+         10
+         16
+      
+        ID:109
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1813
+         10
+         07
+      
+        ID:110
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1813
+         12
+         30
+      
+        ID:111
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1814
+         03
+         19
+      
+        ID:112
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1814
+         05
+         26
+      
+        ID:113
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1814
+         09
+         12
+      
+        ID:114
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1814
+         10
+         15
+      
+        ID:115
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1814
+         10
+         15
+      
+        ID:116
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1814
+         12
+         08
+      
+        ID:117
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1816
+         01
+         15
+      
+        ID:118
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1816
+         07
+         08
+      
+        ID:119
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1816
+         11
+         21
+      
+        ID:120
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1816
+         12
+         16
+      
+        ID:121
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1817
+         07
+         21
+      
+        ID:122
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         01
+         01
+      
+        ID:123
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         01
+         19
+      
+        ID:124
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         01
+         19
+      
+        ID:125
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         01
+         19
+      
+        ID:126
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1818
+         01
+         28
+      
+        ID:127
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         07
+         16
+      
+        ID:128
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         07
+         04
+      
+        ID:129
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         09
+         05
+      
+        ID:130
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         12
+         28
+      
+        ID:131
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1818
+         02
+         26
+      
+        ID:132
+        Titulo:Scotsman
+        Fecha registro:
+         1818
+         02
+         28
+      
+        ID:133
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         10
+         13
+      
+        ID:134
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         01
+         02
+      
+        ID:135
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         01
+         20
+      
+        ID:136
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         01
+         04
+      
+        ID:137
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         03
+         29
+      
+        ID:138
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         04
+         28
+      
+        ID:139
+        Titulo:Scotsman
+        Fecha registro:
+         1819
+         05
+         01
+      
+        ID:140
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         05
+         26
+      
+        ID:141
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         05
+         27
+      
+        ID:142
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         05
+         27
+      
+        ID:143
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         05
+         07
+      
+        ID:144
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         06
+         02
+      
+        ID:145
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         06
+         28
+      
+        ID:146
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         06
+         28
+      
+        ID:147
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         07
+         22
+      
+        ID:148
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         07
+         28
+      
+        ID:149
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         07
+         28
+      
+        ID:150
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         07
+         07
+      
+        ID:151
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         08
+         16
+      
+        ID:152
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         08
+         25
+      
+        ID:153
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         09
+         22
+      
+        ID:154
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         10
+         11
+      
+        ID:155
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         10
+         27
+      
+        ID:156
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1819
+         11
+         10
+      
+        ID:157
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1819
+         02
+         15
+      
+        ID:158
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1820
+         01
+         13
+      
+        ID:159
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1820
+         01
+         24
+      
+        ID:160
+        Titulo:Scotsman
+        Fecha registro:
+         1820
+         01
+         29
+      
+        ID:161
+        Titulo:Scotsman
+        Fecha registro:
+         1820
+         01
+         08
+      
+        ID:162
+        Titulo:Glasgow Herald
+        Fecha registro:
+         1820
+         04
+         24
+      
+        ID:163
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1820
+         04
+         24
+      
+        ID:164
+        Titulo:Scotsman
+        Fecha registro:
+         1820
+         05
+         20
+      
+        ID:165
+        Titulo:Glasgow Herald
+        Fecha registro:
+         1820
+         05
+         22
+      
+        ID:166
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1820
+         06
+         17
+      
+        ID:167
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1820
+         07
+         01
+      
+        ID:168
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1820
+         07
+         12
+      
+        ID:169
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1820
+         07
+         12
+      
+        ID:170
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1820
+         07
+         12
+      
+        ID:171
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1820
+         07
+         19
+      
+        ID:172
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1820
+         08
+         02
+      
+        ID:173
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1821
+         01
+         17
+      
+        ID:174
+        Titulo:Scotsman
+        Fecha registro:
+         1821
+         01
+         26
+      
+        ID:175
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1821
+         01
+         31
+      
+        ID:176
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1821
+         03
+         14
+      
+        ID:177
+        Titulo:Glasgow Herald
+        Fecha registro:
+         1821
+         03
+         30
+      
+        ID:178
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1821
+         05
+         03
+      
+        ID:179
+        Titulo:Scotsman
+        Fecha registro:
+         1821
+         06
+         02
+      
+        ID:180
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1821
+         06
+         27
+      
+        ID:181
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1821
+         06
+         09
+      
+        ID:182
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1821
+         07
+         16
+      
+        ID:183
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1821
+         08
+         15
+      
+        ID:184
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1821
+         10
+         17
+      
+        ID:185
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1821
+         11
+         07
+      
+        ID:186
+        Titulo:Glasgow Herald
+        Fecha registro:
+         1821
+         02
+         05
+      
+        ID:187
+        Titulo:Glasgow Herald
+        Fecha registro:
+         1822
+         01
+         28
+      
+        ID:188
+        Titulo:Scotsman
+        Fecha registro:
+         1822
+         10
+         19
+      
+        ID:189
+        Titulo:Scotsman
+        Fecha registro:
+         1822
+         10
+         19
+      
+        ID:190
+        Titulo:Scotsman
+        Fecha registro:
+         1823
+         06
+         14
+      
+        ID:191
+        Titulo:Scotsman
+        Fecha registro:
+         1823
+         09
+         10
+      
+        ID:192
+        Titulo:Scotsman
+        Fecha registro:
+         1823
+         09
+         03
+      
+        ID:193
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         05
+         05
+      
+        ID:194
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         01
+         21
+      
+        ID:195
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         01
+         31
+      
+        ID:196
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         03
+         27
+      
+        ID:197
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         03
+         06
+      
+        ID:198
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         04
+         03
+      
+        ID:199
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         05
+         12
+      
+        ID:200
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         06
+         09
+      
+        ID:201
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         08
+         25
+      
+        ID:202
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         02
+         11
+      
+        ID:203
+        Titulo:Scotsman
+        Fecha registro:
+         1824
+         02
+         28
+      
+        ID:204
+        Titulo:Scotsman
+        Fecha registro:
+         1825
+         10
+         19
+      
+        ID:205
+        Titulo:Scotsman
+        Fecha registro:
+         1827
+         03
+         03
+      
+        ID:206
+        Titulo:Scotsman
+        Fecha registro:
+         1828
+         04
+         02
+      
+        ID:207
+        Titulo:Scotsman
+        Fecha registro:
+         1828
+         05
+         07
+      
+        ID:208
+        Titulo:Scotsman
+        Fecha registro:
+         1828
+         06
+         25
+      
+        ID:209
+        Titulo:Scotsman
+        Fecha registro:
+         1828
+         08
+         09
+      
+        ID:210
+        Titulo:Scotsman
+        Fecha registro:
+         1828
+         12
+         24
+      
+        ID:211
+        Titulo:Scotsman
+        Fecha registro:
+         1829
+         05
+         20
+      
+        ID:212
+        Titulo:Scotsman
+        Fecha registro:
+         1829
+         06
+         10
+      
+        ID:213
+        Titulo:Scotsman
+        Fecha registro:
+         1829
+         07
+         25
+      
+        ID:214
+        Titulo:Scotsman
+        Fecha registro:
+         1829
+         08
+         19
+      
+        ID:215
+        Titulo:Scotsman
+        Fecha registro:
+         1829
+         11
+         04
+      
+        ID:216
+        Titulo:Scotsman
+        Fecha registro:
+         1830
+         04
+         24
+      
+        ID:217
+        Titulo:Scotsman
+        Fecha registro:
+         1830
+         10
+         09
+      
+        ID:218
+        Titulo:Scotsman
+        Fecha registro:
+         1830
+         11
+         10
+      
+        ID:219
+        Titulo:Scotsman
+        Fecha registro:
+         1831
+         06
+         29
+      
+        ID:220
+        Titulo:Scotsman
+        Fecha registro:
+         1831
+         06
+         04
+      
+        ID:221
+        Titulo:Scotsman
+        Fecha registro:
+         1831
+         07
+         27
+      
+        ID:222
+        Titulo:Scotsman
+        Fecha registro:
+         1831
+         12
+         17
+      
+        ID:223
+        Titulo:Scotsman
+        Fecha registro:
+         1831
+         02
+         05
+      
+        ID:224
+        Titulo:Scotsman
+        Fecha registro:
+         1832
+         03
+         03
+      
+        ID:225
+        Titulo:Scotsman
+        Fecha registro:
+         1832
+         04
+         07
+      
+        ID:226
+        Titulo:Scotsman
+        Fecha registro:
+         1832
+         10
+         13
+      
+        ID:227
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         05
+         29
+      
+        ID:228
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         06
+         29
+      
+        ID:229
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         07
+         10
+      
+        ID:230
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         08
+         03
+      
+        ID:231
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         08
+         07
+      
+        ID:232
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         09
+         25
+      
+        ID:233
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         10
+         05
+      
+        ID:234
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         12
+         07
+      
+        ID:235
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         02
+         02
+      
+        ID:236
+        Titulo:Scotsman
+        Fecha registro:
+         1833
+         02
+         02
+      
+        ID:237
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         04
+         16
+      
+        ID:238
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         06
+         18
+      
+        ID:239
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         06
+         28
+      
+        ID:240
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         07
+         02
+      
+        ID:241
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         07
+         23
+      
+        ID:242
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         07
+         05
+      
+        ID:243
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         08
+         02
+      
+        ID:244
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         09
+         24
+      
+        ID:245
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         11
+         11
+      
+        ID:246
+        Titulo:Scotsman
+        Fecha registro:
+         1834
+         11
+         08
+      
+        ID:247
+        Titulo:Scotsman
+        Fecha registro:
+         1835
+         05
+         13
+      
+        ID:248
+        Titulo:Scotsman
+        Fecha registro:
+         1835
+         07
+         08
+      
+        ID:249
+        Titulo:Scotsman
+        Fecha registro:
+         1835
+         08
+         05
+      
+        ID:250
+        Titulo:Scotsman
+        Fecha registro:
+         1835
+         08
+         05
+      
+        ID:251
+        Titulo:Scotsman
+        Fecha registro:
+         1835
+         09
+         16
+      
+        ID:252
+        Titulo:Scotsman
+        Fecha registro:
+         1835
+         11
+         21
+      
+        ID:253
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         03
+         12
+      
+        ID:254
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         03
+         12
+      
+        ID:255
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         03
+         26
+      
+        ID:256
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         04
+         16
+      
+        ID:257
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         04
+         09
+      
+        ID:258
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         05
+         18
+      
+        ID:259
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         07
+         16
+      
+        ID:260
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         07
+         16
+      
+        ID:261
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         07
+         06
+      
+        ID:262
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         08
+         10
+      
+        ID:263
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         08
+         10
+      
+        ID:264
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         10
+         26
+      
+        ID:265
+        Titulo:Scotsman
+        Fecha registro:
+         1836
+         12
+         07
+      
+        ID:266
+        Titulo:Scotsman
+        Fecha registro:
+         1837
+         05
+         10
+      
+        ID:267
+        Titulo:Scotsman
+        Fecha registro:
+         1837
+         06
+         07
+      
+        ID:268
+        Titulo:Scotsman
+        Fecha registro:
+         1837
+         07
+         01
+      
+        ID:269
+        Titulo:Scotsman
+        Fecha registro:
+         1837
+         07
+         09
+      
+        ID:270
+        Titulo:Scotsman
+        Fecha registro:
+         1837
+         11
+         22
+      
+        ID:271
+        Titulo:Scotsman
+        Fecha registro:
+         1838
+         06
+         09
+      
+        ID:272
+        Titulo:Scotsman
+        Fecha registro:
+         1838
+         09
+         22
+      
+        ID:273
+        Titulo:Scotsman
+        Fecha registro:
+         1838
+         09
+         22
+      
+        ID:274
+        Titulo:Scotsman
+        Fecha registro:
+         1838
+         11
+         24
+      
+        ID:275
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         04
+         10
+      
+        ID:276
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         04
+         03
+      
+        ID:277
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         05
+         11
+      
+        ID:278
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         06
+         05
+      
+        ID:279
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         07
+         10
+      
+        ID:280
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         07
+         24
+      
+        ID:281
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         07
+         25
+      
+        ID:282
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         07
+         27
+      
+        ID:283
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         07
+         27
+      
+        ID:284
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         07
+         06
+      
+        ID:285
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         08
+         28
+      
+        ID:286
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         09
+         11
+      
+        ID:287
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         09
+         28
+      
+        ID:288
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         11
+         23
+      
+        ID:289
+        Titulo:Scotsman
+        Fecha registro:
+         1839
+         11
+         24
+      
+        ID:290
+        Titulo:Scotsman
+        Fecha registro:
+         1840
+         04
+         18
+      
+        ID:291
+        Titulo:Scotsman
+        Fecha registro:
+         1840
+         05
+         13
+      
+        ID:292
+        Titulo:Scotsman
+        Fecha registro:
+         1840
+         07
+         29
+      
+        ID:293
+        Titulo:Scotsman
+        Fecha registro:
+         1840
+         08
+         12
+      
+        ID:294
+        Titulo:Scotsman
+        Fecha registro:
+         1840
+         08
+         15
+      
+        ID:295
+        Titulo:Scotsman
+        Fecha registro:
+         1840
+         10
+         28
+      
+        ID:296
+        Titulo:Scotsman
+        Fecha registro:
+         1840
+         12
+         05
+      
+        ID:297
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         03
+         20
+      
+        ID:298
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         03
+         31
+      
+        ID:299
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         04
+         14
+      
+        ID:300
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         04
+         07
+      
+        ID:301
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         09
+         22
+      
+        ID:302
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         10
+         09
+      
+        ID:304
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         11
+         17
+      
+        ID:305
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         11
+         24
+      
+        ID:306
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         12
+         22
+      
+        ID:307
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         12
+         25
+      
+        ID:308
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         12
+         29
+      
+        ID:309
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         12
+         29
+      
+        ID:310
+        Titulo:Scotsman
+        Fecha registro:
+         1841
+         02
+         17
+      
+        ID:311
+        Titulo:Scotsman
+        Fecha registro:
+         1842
+         03
+         19
+      
+        ID:312
+        Titulo:Scotsman
+        Fecha registro:
+         1842
+         05
+         18
+      
+        ID:313
+        Titulo:Scotsman
+        Fecha registro:
+         1842
+         02
+         05
+      
+        ID:314
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         01
+      
+        ID:315
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         01
+      
+        ID:316
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         01
+         07
+      
+        ID:317
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         04
+         27
+      
+        ID:318
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         06
+         27
+      
+        ID:319
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         05
+         02
+      
+        ID:320
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         03
+         04
+      
+        ID:321
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         05
+      
+        ID:322
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         08
+      
+        ID:323
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         11
+         08
+      
+        ID:324
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         01
+         21
+      
+        ID:326
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         09
+         20
+      
+        ID:327
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         02
+         07
+      
+        ID:328
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         01
+         21
+      
+        ID:329
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         01
+         31
+      
+        ID:330
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         01
+         07
+      
+        ID:331
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         07
+         18
+      
+        ID:332
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         06
+         25
+      
+        ID:333
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         06
+         24
+      
+        ID:334
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         01
+         10
+      
+        ID:335
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         05
+         09
+      
+        ID:336
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         05
+         13
+      
+        ID:337
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         04
+         20
+      
+        ID:338
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         04
+         23
+      
+        ID:339
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         04
+         16
+      
+        ID:340
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         06
+         21
+      
+        ID:341
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         02
+         22
+      
+        ID:97
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         09
+         12
+      
+        ID:342
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         07
+         12
+      
+        ID:343
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         06
+         18
+      
+        ID:344
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         05
+         17
+      
+        ID:345
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         05
+         24
+      
+        ID:346
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         10
+         04
+      
+        ID:347
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         02
+         21
+      
+        ID:348
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         02
+         21
+      
+        ID:349
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1791
+         07
+         25
+      
+        ID:351
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         08
+         17
+      
+        ID:352
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         08
+         20
+      
+        ID:353
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         12
+         14
+      
+        ID:354
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         10
+         08
+      
+        ID:356
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         08
+         30
+      
+        ID:357
+        Titulo:Caledonian Mercury
+        Fecha registro:
+         1817
+         01
+         06
+      
+        ID:358
+        Titulo:Aberdeen Journal
+        Fecha registro:
+         1817
+         01
+         08
+      
+        ID:359
+        Titulo:Sydney Gazette
+        Fecha registro:
+         1815
+         11
+         08
+      
+        ID:360
+        Titulo:Morning Chronicle
+        Fecha registro:
+         1817
+         01
+         03
+      
+        ID:361
+        Titulo:London Times
+        Fecha registro:
+         1817
+         01
+         02
+      
+        ID:362
+        Titulo:London Star
+        Fecha registro:
+         1817
+         01
+         01
+      
+        ID:363
+        Titulo:London Courier
+        Fecha registro:
+         1817
+         01
+         02
+      
+        ID:364
+        Titulo:London St James Chronicle and Evening Post
+        Fecha registro:
+         1817
+         01
+         02
+      
+        ID:365
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         08
+         30
+      
+        ID:366
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         01
+         24
+      
+        ID:367
+        Titulo:Glasgow Herald
+        Fecha registro:
+         1822
+         01
+         28
+      
+        ID:368
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         07
+         25
+      
+        ID:369
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         01
+         11
+      
+        ID:370
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         09
+         17
+      
+        ID:371
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1793
+         12
+         13
+      
+        ID:372
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         01
+         06
+      
+        ID:373
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         01
+         27
+      
+        ID:374
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         07
+         18
+      
+        ID:375
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         07
+         21
+      
+        ID:376
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         07
+         11
+      
+        ID:377
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         07
+         18
+      
+        ID:378
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1794
+         11
+         17
+      
+        ID:379
+        Titulo:Trewman's Exeter Flying Post
+        Fecha registro:
+         1810
+         01
+         11
+      
+        ID:380
+        Titulo:Examiner
+        Fecha registro:
+         1810
+         01
+         17
+      
+        ID:381
+        Titulo:Morning Chronicle
+        Fecha registro:
+         1810
+         01
+         06
+      
+        ID:382
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         28
+      
+        ID:383
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         28
+      
+        ID:384
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         28
+      
+        ID:385
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         11
+         27
+      
+        ID:386
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         11
+         13
+      
+        ID:387
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         07
+      
+        ID:388
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         07
+      
+        ID:389
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         01
+         01
+      
+        ID:390
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         02
+      
+        ID:391
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         23
+      
+        ID:392
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         25
+      
+        ID:393
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         25
+      
+        ID:394
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         25
+      
+        ID:395
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         21
+      
+        ID:396
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1789
+         09
+         21
+      
+        ID:397
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         19
+      
+        ID:398
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         15
+      
+        ID:399
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         08
+         13
+      
+        ID:400
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         15
+      
+        ID:401
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         12
+      
+        ID:402
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1792
+         08
+         13
+      
+        ID:403
+        Titulo:Glasgow Advertiser
+        Fecha registro:
+         1790
+         11
+         08
+      

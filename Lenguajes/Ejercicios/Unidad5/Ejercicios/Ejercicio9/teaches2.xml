@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teaches>
+   <teacher>
+      <course>LMSXI</course>
+      <lecturer>Noemí Varela</lecturer>
+   </teacher>
+   <teacher>
+      <course>CD</course>
+      <lecturer>Sabela Sobrino</lecturer>
+   </teacher>
+</teaches>

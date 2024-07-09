@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE coches [
+    <!ELEMENT coches (coche+)>
+    <!ELEMENT coche (marca,modelo,puertas,color,precio)>
+    <!ATTLIST coche matricula CDATA #REQUIRED>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT puertas (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ATTLIST precio venta CDATA #REQUIRED>
+]>
+
+<coches>
+    <coche matricula="8765MMM">
+        <marca>Audi</marca>
+        <modelo>A7</modelo>
+        <puertas>3</puertas>
+        <color>negro</color>
+        <precio venta="nuevo">50000</precio>
+    </coche>
+
+    <coche matricula="8732BBP">
+        <marca>Nissan</marca>
+        <modelo>350z</modelo>
+        <puertas>3</puertas>
+        <color>negro</color>
+        <precio venta="ocasion">30000</precio>
+    </coche>
+</coches>

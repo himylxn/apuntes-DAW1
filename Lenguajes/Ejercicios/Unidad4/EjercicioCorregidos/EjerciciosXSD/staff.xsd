@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="staff" type="staffType"/>
+    <xs:complexType name="staffType">
+        <xs:sequence>
+            <xs:element name="person" maxOccurs="unbounded" type="personType" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="personType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="age" type="xs:positiveInteger"/>
+        </xs:sequence>
+        <xs:attribute name="number" use="required" >
+            <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                    <xs:minInclusive value="0"></xs:minInclusive>
+                    <xs:maxInclusive value="130"></xs:maxInclusive>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+</xs:schema>

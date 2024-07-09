@@ -1,0 +1,38 @@
+<youtube xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ejercicio27.xsd">
+    <videos>
+        <video> XSD Overview 
+            <url>https://www.youtube.com/watch?v=PpvX3izvRWU</url>
+            <views>112000</views>
+            <comments>
+                <good>200000</good>
+                <bad>700</bad>
+            </comments>
+            <subscribers>
+                <subscriber code="15-AR-56">
+                    <subscriptionDate day="12" month="february" year="2023" />
+                    <comments quantity="12" />
+                    <email completo="rafa@gmail.com">
+                        <user>rafa</user>
+                        <server>
+                            <iessanclemente.net></iessanclemente.net>
+                        </server>
+                    </email>
+                    <language>Korean</language>
+                </subscriber>
+            </subscribers>
+        </video>
+    </videos>
+    <advertisement>
+        <ad>
+            <company>Seresco</company>
+            <bannersPerMinute>40000</bannersPerMinute>
+        </ad>
+        <sponsoredAd sponsor="Google">
+            <company>Gadis</company>
+            <bannersPerMinute>15000</bannersPerMinute>
+            <youTubeDiscount>23%</youTubeDiscount>
+        </sponsoredAd>
+    </advertisement>
+    <availableLanguages>French</availableLanguages>
+</youtube>

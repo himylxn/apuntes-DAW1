@@ -1,0 +1,13 @@
+<!ELEMENT bookDatabase (book+)>
+<!ELEMENT book (author+,content+,image?,newchapters?)>
+<!ATTLIST book bookID NMTOKEN #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT content (chapter,description)>
+<!ELEMENT chapter (#PCDATA)>
+<!ATTLIST chapter number NMTOKEN #REQUIRED>
+<!ELEMENT description (section*,summary?)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT newchapters (chapter,description)>
+<!ENTITY Ian "Ian Fooster">

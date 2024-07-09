@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<transportes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ejemplo1.xsd">
+    <aereos>
+        <avion>vuela lejos colega</avion>
+    </aereos>
+    <aereos>
+        <helicoptero>vuela menos lejos colega</helicoptero>
+    </aereos>
+    <terrestres>
+        <coche>es muy usado</coche>
+    </terrestres>
+    <numeros>2</numeros>
+</transportes>

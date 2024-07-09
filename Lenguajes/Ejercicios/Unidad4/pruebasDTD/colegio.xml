@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE colegio [
+    <!ELEMENT colegio (alumnos,profes)>
+    <!ELEMENT alumnos (alumno)>
+    <!ELEMENT alumno (nombre,apellido,matricula,activo)>
+    <!ATTLIST alumno expediente CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT matricula (#PCDATA)>
+    <!ELEMENT activo EMPTY>
+    <!ELEMENT profes (profe)>
+    <!ELEMENT profe (nombre,cursos,foto)>
+    <!ELEMENT cursos (#PCDATA)>
+    <!ELEMENT foto (#PCDATA)>
+
+    
+]>
+
+<colegio>
+    <alumnos>
+        <alumno expediente="AA01">
+            <nombre></nombre>
+            <apellido></apellido>
+            <matricula></matricula>
+            <activo />
+        </alumno>
+    </alumnos>
+
+    <profes>
+        <profe>
+            <nombre></nombre>
+            <cursos>DAW</cursos>
+            <foto>juan.jpg</foto>
+        </profe>
+    </profes>
+</colegio>

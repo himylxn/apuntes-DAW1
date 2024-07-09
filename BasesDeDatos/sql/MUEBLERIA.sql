@@ -166,4 +166,3 @@ alter table MUEBLE
 ADD
 CONSTRAINT FK_MUEBLE_num_montador FOREIGN KEY (num_montador)
 REFERENCES MONTADOR (num_montador)
-

@@ -1,0 +1,14 @@
+<customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="customer.xsd" id="id_12345567">
+    <name>
+        <first>Sherlock</first>
+        <middle/>
+        <last>Holmes</last>
+    </name>
+    <address>
+        <street>221b Baker Street</street>
+        <city>London</city>
+        <state/>
+        <country>England</country>
+        <postalcode>W1U</postalcode>
+    </address>
+</customer>

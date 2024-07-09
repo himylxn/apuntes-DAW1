@@ -1,0 +1,23 @@
+<!DOCTYPE booklist [
+    <!ELEMENT booklist (book)+>
+    <!ELEMENT book (bookname*,author+,price?,homepage)>
+    <!ELEMENT bookname (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT homepage (#PCDATA)>
+]>
+<booklist>
+    <book>
+        <author>JHKDFG</author>
+        <homepage>SDHB</homepage>
+    </book>
+    <book>
+        <bookname>SHH</bookname>
+        <bookname>SFH</bookname>
+        <bookname>SRG</bookname>
+        <author>SREYV</author>
+        <author>ESA</author>
+        <price>SRE</price>
+        <homepage>SFGH</homepage>
+    </book>
+</booklist>

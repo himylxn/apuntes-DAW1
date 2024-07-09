@@ -1,0 +1,14 @@
+th{
+    background-color: dodgerblue !important;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #FF1E90;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: #90FF1E;
+    color: white;
+}

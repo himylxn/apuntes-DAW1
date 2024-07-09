@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ejemplo.xsd">
+    <marcador>Lo que se marca</marcador>
+    <veces>7</veces>
+    <tiempo_seg>7.6</tiempo_seg>
+    <tiempo_seg>7.7</tiempo_seg>
+    <tiempo_seg>7.8</tiempo_seg>
+</marcadores>
